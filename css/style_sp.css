@@ -738,6 +738,33 @@ img[src$=".png"], img[src$=".jpg"] {
 /*==================================
   Top
 ==================================*/
+#Top main .sect_3 {
+  background-color: #eff0f2;
+  padding: 0;
+}
+
+#Top main .sect_3 .wrapper {
+  background-color: #fff;
+}
+
+#Top main .sect_3 .wrapper .content .row .col {
+  width: 100%;
+}
+
+#Top main .sect_3 .wrapper .content .row .col:last-child {
+  padding: 60px 20px 80px;
+}
+
+#Top main .sect_3 .wrapper .content .row .col:last-child .desc {
+  line-height: 25.6px;
+  letter-spacing: .02em;
+  margin: 23px 0 0;
+}
+
+#Top main .sect_3 .wrapper .content .row .col:last-child .c-button01 {
+  margin: 35px auto 0;
+}
+
 #Top main .sect_4 {
   position: relative;
   background-color: #eff0f2;
