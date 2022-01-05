@@ -283,3 +283,119 @@ img {
     }
   }
 }
+
+
+/*==================================
+	c-heading01
+==================================*/
+.c-header01{
+  position: relative;
+  &::after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 1px;
+    background-color: #9fb2d4;
+    margin-top: 37px;
+    @include sp{
+      width: 50px;
+      margin-top: 17px;
+    }
+  }
+  &__en{
+    @include Cormorant(600);
+    font-size: 60px;
+    color: #060930;
+    letter-spacing: .04em;
+    margin-bottom: 5px;
+    @include sp{
+      font-size: 48px;
+    }
+  }
+  &__jp{
+    @include Noto_Serif(600);
+    font-size: 14px;
+    color: #000;
+    letter-spacing: .14em;
+    @include sp{
+      font-size: 12px;
+    }
+  }
+}
+
+/*==================================
+	c-button01
+==================================*/
+.c-button01{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: .08em;
+  transition: all .3s ease-in-out;
+  @include sp{
+    @include Noto_Serif(600);
+    margin: 40px auto 0;
+  }
+  &:hover{
+    @include Noto_Serif(600);
+  }
+  &--primary{
+    background-color: #181d2c;
+    color: #fff !important;
+    transition: .3s ease-in-out;
+    &::after{
+      content: "";
+      display: block;
+      width: 30px;
+      height: 1.5px;
+      background-color: #fff;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translate(0, -50%);
+    }
+    &::before{
+      content: "";
+      display: block;
+      width: 30px;
+      height: 1.5px;
+      background-color: #181d2c;
+      position: absolute;
+      top: 50%;
+      right: -30px;
+      transform: translate(0, -50%);
+    }
+  }
+  &--lg{
+    width: 300px;
+    height: 68px;
+
+    @include sp{
+      width: 80%;
+      height: 68px;
+    }
+  }
+  &--sm{
+    width: 200px;
+    height: 50px;
+
+    @include sp{
+      width: 80%;
+      height: 68px;
+    }
+  }
+}
+
+.c-button01--primary{
+  @include pc{
+    &:hover{
+      background-color: #3d5ba8 !important;
+      &::before{
+        background-color: #3d5ba8;
+      }
+    }
+  }
+}
