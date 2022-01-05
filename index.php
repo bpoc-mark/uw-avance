@@ -29,6 +29,27 @@
 		</header> -->
 
 		<main>
+			<section class="sect_4">
+				<div class="wrapper">
+					<div class="container">
+						<figure class="sp">
+							<img src="/images/top/sect_4/sp/bg_img.jpg" alt="">
+						</figure>
+						<div class="content">
+							<div class="c-header01">
+								<h3 class="c-header01__en">Avance.Lab</h3>
+								<p class="c-header01__jp">アバンセ ラボ</p>
+							</div>
+							<p class="desc">
+							テキストが入りますテキストが入りますテキストが入ります。<br>
+							テキストが入りますテキストが入りますテキスト<br class="pc">
+							テキストが入りますテキストが入りますテキストが入りますテキスト。
+							</p>
+							<a href="" class="c-button01 c-button01--secondary c-button01--lg">採用情報</a>
+						</div>
+					</div>
+				</div>
+			</section>
 			<section class="sect_5">
 				<div class="wrapper">
 					<div class="container">

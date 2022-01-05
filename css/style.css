@@ -684,6 +684,54 @@ img[src$=".png"], img[src$=".jpg"] {
 /*==================================
   Top
 ==================================*/
+#Top main .sect_4 {
+  position: relative;
+  background-color: #eff0f2;
+}
+
+#Top main .sect_4 .wrapper {
+  position: relative;
+}
+
+#Top main .sect_4 .wrapper::before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #181d2c;
+  z-index: 0;
+}
+
+#Top main .sect_4 .wrapper .container {
+  position: relative;
+  z-index: 1;
+}
+
+#Top main .sect_4 .wrapper .container .content {
+  padding: 114px 0 120px;
+  background-image: url(/images/top/sect_4/bg_img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+#Top main .sect_4 .wrapper .container .content .c-header01__en {
+  color: #fff;
+}
+
+#Top main .sect_4 .wrapper .container .content .c-header01__jp {
+  color: #fff;
+}
+
+#Top main .sect_4 .wrapper .container .content .desc {
+  color: #fff;
+  line-height: 25.6px;
+  margin: 44px 0 40px;
+}
+
 #Top main .sect_5 .wrapper {
   position: relative;
   padding: 100px 0 0 0;
