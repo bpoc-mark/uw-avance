@@ -738,6 +738,42 @@ img[src$=".png"], img[src$=".jpg"] {
 /*==================================
   Top
 ==================================*/
+#Top main .sect_4 {
+  position: relative;
+  background-color: #eff0f2;
+}
+
+#Top main .sect_4 .wrapper .container {
+  padding: 0;
+}
+
+#Top main .sect_4 .wrapper .container figure {
+  position: relative;
+  z-index: 5;
+}
+
+#Top main .sect_4 .wrapper .container .content {
+  position: relative;
+  z-index: 1;
+  margin: -10px 0 0;
+  background-color: #181d2c;
+  padding: 10px 20px 80px;
+}
+
+#Top main .sect_4 .wrapper .container .content .c-header01__en {
+  color: #fff;
+}
+
+#Top main .sect_4 .wrapper .container .content .c-header01__jp {
+  color: #fff;
+}
+
+#Top main .sect_4 .wrapper .container .content .desc {
+  color: #fff;
+  line-height: 25.7px;
+  margin: 24px 0 35px;
+}
+
 #Top main .sect_5 .wrapper {
   position: relative;
   padding: 80px 0 0 0;

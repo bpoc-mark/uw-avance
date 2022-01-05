@@ -2,6 +2,39 @@
   Top
 ==================================*/
 #Top main {
+  .sect_4{
+    position: relative;
+    background-color: #eff0f2;
+    .wrapper{
+      .container{
+        padding: 0;
+        figure{
+          position: relative;
+          z-index: 5;
+        }
+        .content{
+          position: relative;
+          z-index: 1;
+          margin: -10px 0 0;
+          background-color: #181d2c;
+          padding: 10px 20px 80px;
+          .c-header01{
+            &__en{
+              color: #fff;
+            }
+            &__jp{
+              color: #fff;
+            }
+          }
+          .desc{
+            color: #fff;
+            line-height: 25.7px;
+            margin: 24px 0 35px;
+          }
+        }
+      }
+    }
+  }
   .sect_5{
     .wrapper{
       position: relative;
