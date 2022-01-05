@@ -29,6 +29,31 @@
 		</header> -->
 
 		<main>
+			<section class="sect_3">
+				<div class="wrapper">
+					<div class="content">
+						<div class="row">
+							<div class="col">
+								<figure class="sp">
+									<img src="/images/top/sect_3/sp/img_1.jpg" alt="">
+								</figure>
+							</div>
+							<div class="col">
+								<div class="c-header01">
+									<h3 class="c-header01__en">Company</h3>
+									<p class="c-header01__jp">会社案内</p>
+								</div>
+								<p class="desc">
+								テキストが入りますテキストが入りますテキストが入ります。<br>
+								テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。<br>
+								テキストが入りますテキストが入りますテキストが入りますテキスト。<br>
+								</p>
+								<a href="" class="c-button01 c-button01--primary c-button01--lg">会社案内</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 			<section class="sect_4">
 				<div class="wrapper">
 					<div class="container">

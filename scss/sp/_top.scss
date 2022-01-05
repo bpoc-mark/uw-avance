@@ -2,6 +2,31 @@
   Top
 ==================================*/
 #Top main {
+  .sect_3{
+    background-color: #eff0f2;
+    padding: 0;
+    .wrapper{
+      background-color: #fff;
+      .content{
+        .row{
+          .col{
+            width: 100%;
+            &:last-child{
+              padding: 60px 20px 80px;
+              .desc{
+                line-height: 25.6px;
+                letter-spacing: .02em;
+                margin: 23px 0 0;
+              }
+              .c-button01{
+                margin: 35px auto 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
   .sect_4{
     position: relative;
     background-color: #eff0f2;

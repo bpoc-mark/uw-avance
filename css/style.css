@@ -684,6 +684,34 @@ img[src$=".png"], img[src$=".jpg"] {
 /*==================================
   Top
 ==================================*/
+#Top main .sect_3 {
+  background-color: #eff0f2;
+  padding: 100px 0 100px 100px;
+}
+
+#Top main .sect_3 .wrapper {
+  background-color: #fff;
+}
+
+#Top main .sect_3 .wrapper .content .row .col:first-child {
+  width: 35%;
+  background-image: url(/images/top/sect_3/img_1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#Top main .sect_3 .wrapper .content .row .col:last-child {
+  width: 65%;
+  padding: 110px 120px 120px;
+}
+
+#Top main .sect_3 .wrapper .content .row .col:last-child .desc {
+  line-height: 25.6px;
+  letter-spacing: .02em;
+  margin: 43px 0 46px;
+}
+
 #Top main .sect_4 {
   position: relative;
   background-color: #eff0f2;
