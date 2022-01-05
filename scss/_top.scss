@@ -2,6 +2,38 @@
   Top
 ==================================*/
 #Top main {
+  .sect_5{
+    .wrapper{
+      position: relative;
+      padding: 100px 0 0 0;
+      background-color: #eff0f2;
+      .container{
+        .bg_cont{
+          height: 400px;
+          background-image: url(/images/top/sect_5/bg_img.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          padding: 0 100px 0 0;
+          &--content{
+            text-align: center;
+            &__title{
+              @include Noto_Serif(600);
+              font-size: 24px;
+              letter-spacing: .14em;
+              line-height: 43.2px;
+              color: #fff;
+            }
+            .c-button01{
+              margin: 31px 60px 0 auto;
+            }
+          }
+        }
+      }
+    }
+  }
   .sect_6{
     .wrapper{
       position: relative;

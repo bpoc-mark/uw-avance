@@ -369,6 +369,33 @@ img {
       transform: translate(0, -50%);
     }
   }
+  &--secondary{
+    background-color: #fff;
+    color: #181d2c !important;
+    transition: .3s ease-in-out;
+    &::after{
+      content: "";
+      display: block;
+      width: 30px;
+      height: 1.5px;
+      background-color: #181d2c;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translate(0, -50%);
+    }
+    &::before{
+      content: "";
+      display: block;
+      width: 30px;
+      height: 1.5px;
+      background-color: #fff;
+      position: absolute;
+      top: 50%;
+      right: -30px;
+      transform: translate(0, -50%);
+    }
+  }
   &--lg{
     width: 300px;
     height: 68px;
@@ -393,6 +420,21 @@ img {
   @include pc{
     &:hover{
       background-color: #3d5ba8 !important;
+      &::before{
+        background-color: #3d5ba8;
+      }
+    }
+  }
+}
+
+.c-button01--secondary{
+  @include pc{
+    &:hover{
+      background-color: #3d5ba8 !important;
+      color: #fff !important;
+      &::after{
+        background-color: #fff;
+      }
       &::before{
         background-color: #3d5ba8;
       }

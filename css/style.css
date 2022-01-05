@@ -602,6 +602,36 @@ img[src$=".png"], img[src$=".jpg"] {
   transform: translate(0, -50%);
 }
 
+.c-button01--secondary {
+  background-color: #fff;
+  color: #181d2c !important;
+  transition: .3s ease-in-out;
+}
+
+.c-button01--secondary::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 1.5px;
+  background-color: #181d2c;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+}
+
+.c-button01--secondary::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 1.5px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  right: -30px;
+  transform: translate(0, -50%);
+}
+
 .c-button01--lg {
   width: 300px;
   height: 68px;
@@ -635,12 +665,59 @@ img[src$=".png"], img[src$=".jpg"] {
   }
 }
 
+@media (min-width: 900px) {
+  .c-button01--secondary:hover {
+    background-color: #3d5ba8 !important;
+    color: #fff !important;
+  }
+  .c-button01--secondary:hover::after {
+    background-color: #fff;
+  }
+  .c-button01--secondary:hover::before {
+    background-color: #3d5ba8;
+  }
+}
+
 /*==========================================
   Layout
 ==========================================*/
 /*==================================
   Top
 ==================================*/
+#Top main .sect_5 .wrapper {
+  position: relative;
+  padding: 100px 0 0 0;
+  background-color: #eff0f2;
+}
+
+#Top main .sect_5 .wrapper .container .bg_cont {
+  height: 400px;
+  background-image: url(/images/top/sect_5/bg_img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 100px 0 0;
+}
+
+#Top main .sect_5 .wrapper .container .bg_cont--content {
+  text-align: center;
+}
+
+#Top main .sect_5 .wrapper .container .bg_cont--content__title {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: .14em;
+  line-height: 43.2px;
+  color: #fff;
+}
+
+#Top main .sect_5 .wrapper .container .bg_cont--content .c-button01 {
+  margin: 31px 60px 0 auto;
+}
+
 #Top main .sect_6 .wrapper {
   position: relative;
   padding: 130px 0 140px 0;
