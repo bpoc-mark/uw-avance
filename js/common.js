@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // Webfont読込
 window.WebFontConfig = {
   google: {
-    families: ['Noto+Serif+JP:600', 'Noto+Sans+JP:300,400,500&subset=japanese', 'Cormorant+Garamond:600']
+    families: ['Noto+Serif+JP:300,400,600', 'Noto+Sans+JP:300,400,500&subset=japanese', 'Cormorant+Garamond:400,600']
   },
   active: function () {
     sessionStorage.fonts = true;

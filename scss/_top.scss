@@ -2,4 +2,101 @@
   Top
 ==================================*/
 #Top main {
+  .sect_6{
+    .wrapper{
+      position: relative;
+      padding: 130px 0 140px 0;
+      background-color: #eff0f2;
+      .container{
+        position: relative;
+        .news{
+          position: relative;
+          margin: 50px 0 0 0;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: flex-start;
+          &__item{
+            width: 22.5%;
+            @include is-max(1000px){
+              width: 49%;
+              &:nth-child(2n+2){
+                margin: 0 0 20px 2% !important;
+              }
+            }
+            &:not(:first-child){
+              margin: 0 0 0 3.333333333333333%;
+              @include is-max(1000px){
+                margin: 0;
+              }
+            }
+          }
+          &__link{
+            &:hover{
+              img{
+                transform: scale(1.2);
+              }
+              .news__content--cat{
+                opacity: 0;
+              }
+              .news__content__wrap--separator{
+                opacity: 0;
+              }
+              .news__content--title{
+                @include Noto_Serif(600);
+                color: #3d5ba8;
+                text-decoration: underline;
+                text-underline-offset: 5px;
+              }
+            }
+          }
+          &__img{
+            position: relative;
+            overflow: hidden;
+            img{
+              transition: .3s ease-in-out;
+            }
+          }
+          &__content{
+            background-color: #fff;
+            position: relative;
+            padding: 10px 30px 25px;
+            &__wrap{
+              display: flex;
+              align-items: center;
+              justify-content: flex-start;
+              color: #919191;
+              &--separator{
+                opacity: 1;
+                transition: .3s ease-in-out;
+              }
+            }
+            &--date{
+              @include Cormorant(400);
+              font-size: 18px;
+            }
+            &--cat{
+              font-size: 12px;
+              position: relative;
+              top: 2px;
+              opacity: 1;
+              transition: .3s ease-in-out;
+            }
+            &--title{
+              font-weight: 500;
+              letter-spacing: .14em;
+              color: #060930;
+              line-height: 25.6px;
+              margin: 0 0 0 -1px;
+              transition: all .3s ease-in-out;
+            }
+          }
+        }
+        .c-button01{
+          position: absolute;
+          top: 75px;
+          right: 80px;
+        }
+      }
+    }
+  }
 }
