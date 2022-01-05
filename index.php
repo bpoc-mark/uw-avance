@@ -29,6 +29,18 @@
 		</header> -->
 
 		<main>
+			<section class="sect_5">
+				<div class="wrapper">
+					<div class="container">
+						<div class="bg_cont">
+							<div class="bg_cont--content">
+								<h3 class="bg_cont--content__title">向上心を持って、一流のSEとして<br>私たちと共に働きませんか？</h3>
+								<a href="" class="c-button01 c-button01--secondary c-button01--lg">採用情報</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 			<section class="sect_6">
 				<div class="wrapper">
 					<div class="container">
