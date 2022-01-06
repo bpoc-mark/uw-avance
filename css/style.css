@@ -684,9 +684,175 @@ img[src$=".png"], img[src$=".jpg"] {
 /*==================================
   Top
 ==================================*/
+#Top main .main_content .sect_1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url(/images/top/sect_1/bg_img.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#Top main .main_content .sect_1 .content h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 94px;
+  letter-spacing: .04em;
+  color: #fff;
+  text-align: center;
+  mix-blend-mode: exclusion;
+}
+
+#Top main .main_content .sect_1 .content h3 {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: .2em;
+  color: #fff;
+  line-height: 36px;
+  text-align: center;
+  margin: 20px 0 0;
+  mix-blend-mode: exclusion;
+}
+
+#Top main .main_content .sect_1 .scroll {
+  position: absolute;
+  bottom: 140px;
+  right: 40px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: .08em;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+#Top main .main_content .sect_1 .scroll span {
+  overflow: hidden;
+  display: block;
+  width: 1px;
+  height: 120px;
+  position: absolute;
+  bottom: -130px;
+  right: 5.5px;
+  /* The animation code */
+}
+
+#Top main .main_content .sect_1 .scroll span::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation-name: scrollAnim;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes scrollAnim {
+  0% {
+    height: 0;
+  }
+  50% {
+    height: 100%;
+    top: 0;
+  }
+  100% {
+    top: 100%;
+  }
+}
+
+#Top main .main_content .sect_2 {
+  margin: 100vh 0 0;
+  background-color: #eff0f2;
+  width: calc(100% - 100px);
+  padding: 0 0 100px;
+}
+
+#Top main .main_content .sect_2 .wrapper {
+  background-color: #fff;
+  padding: 120px 100px 60px;
+}
+
+#Top main .main_content .sect_2 .wrapper .row {
+  justify-content: space-between;
+}
+
+#Top main .main_content .sect_2 .wrapper .row .col {
+  position: relative;
+  width: 30.91%;
+  margin: 0 0 60px 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  #Top main .main_content .sect_2 .wrapper .row .col {
+    width: 49%;
+  }
+  #Top main .main_content .sect_2 .wrapper .row .col:nth-child(2n+2) {
+    margin: 0 0 60px 2%;
+  }
+}
+
+#Top main .main_content .sect_2 .wrapper .row .col:not(:first-child) {
+  padding: 0 0 0 20px;
+}
+
+#Top main .main_content .sect_2 .wrapper .row .col .desc {
+  line-height: 25.6px;
+  letter-spacing: .02em;
+  margin: 45px 0 0;
+}
+
+#Top main .main_content .sect_2 .wrapper .row .col .card--content {
+  background-color: #fff;
+  border: 1px solid #e2e2e2;
+  border-top: none;
+  padding: 30px 35px 35px;
+}
+
+#Top main .main_content .sect_2 .wrapper .row .col .card--content__num {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 70px;
+  letter-spacing: .04em;
+  line-height: 0;
+  color: #060930;
+  position: absolute;
+  top: -5px;
+  left: 0;
+  z-index: 5;
+}
+
+#Top main .main_content .sect_2 .wrapper .row .col .card--content__title {
+  font-weight: 500;
+  font-size: 22px;
+  color: #060930;
+  letter-spacing: .14em;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  line-height: 30px;
+}
+
+#Top main .main_content .sect_2 .wrapper .row .col .card--content__desc {
+  line-height: 25.6px;
+  letter-spacing: .02em;
+  margin: 15px 0 0;
+}
+
 #Top main .sect_3 {
   background-color: #eff0f2;
-  padding: 100px 0 100px 100px;
+  padding: 0 0 100px 100px;
 }
 
 #Top main .sect_3 .wrapper {
