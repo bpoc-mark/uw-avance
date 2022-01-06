@@ -29,6 +29,96 @@
 		</header> -->
 
 		<main>
+			<div class="main_content">
+				<section class="sect_1">
+					<div class="content">
+						<h2>Avance Revolution</h2>
+						<h3>「挑戦」と「変化」で<br class="sp">システム･アプリケーション開発に革命を</h3>
+					</div>
+					<a href="" class="scroll">SCROLL<span></span></a>
+				</section>
+				<section class="sect_2">
+					<div class="wrapper">
+						<div class="row">
+							<div class="col">
+								<div class="c-header01">
+									<h3 class="c-header01__en">Service</h3>
+									<p class="c-header01__jp">サービス紹介</p>
+								</div>
+								<p class="desc">
+									サービスを包括したテキストを入れたいです。<br class="pc">
+									サービスを包括したテキストを入れたいですサービスを包括したテキストを入れたいですサービスを包括したテキストを入れたいです。
+								</p>
+							</div>
+							<div class="col">
+								<div class="card">
+									<picture >
+										<source srcset="/images/top/sect_2/sp/img1.jpg" media="(max-width: 899px)">
+										<img src="/images/top/sect_2/img1.jpg" alt="車載関連" class="">
+									</picture>
+									<div class="card--content">
+										<span class="card--content__num">01.</span>
+										<h3 class="card--content__title">車載関連</h3>
+										<p class="card--content__desc">車載ソフトウェア開発のご要望に豊富な実績とノウハウでお応えします</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<picture >
+										<source srcset="/images/top/sect_2/sp/img2.jpg" media="(max-width: 899px)">
+										<img src="/images/top/sect_2/img2.jpg" alt="IoT関連" class="">
+									</picture>
+									<div class="card--content">
+										<span class="card--content__num">02.</span>
+										<h3 class="card--content__title">IoT関連</h3>
+										<p class="card--content__desc">テキストが入りますテキストが入りますテキストが入ります。</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<picture >
+										<source srcset="/images/top/sect_2/sp/img3.jpg" media="(max-width: 899px)">
+										<img src="/images/top/sect_2/img3.jpg" alt="生産関連" class="">
+									</picture>
+									<div class="card--content">
+										<span class="card--content__num">03.</span>
+										<h3 class="card--content__title">生産関連</h3>
+										<p class="card--content__desc">テキストが入りますテキストが入りますテキストが入ります。</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<picture >
+										<source srcset="/images/top/sect_2/sp/img4.jpg" media="(max-width: 899px)">
+										<img src="/images/top/sect_2/img4.jpg" alt="大学教育関連" class="">
+									</picture>
+									<div class="card--content">
+										<span class="card--content__num">04.</span>
+										<h3 class="card--content__title">大学教育関連</h3>
+										<p class="card--content__desc">テキストが入りますテキストが入りますテキストが入ります。</p>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card">
+									<picture >
+										<source srcset="/images/top/sect_2/sp/img5.jpg" media="(max-width: 899px)">
+										<img src="/images/top/sect_2/img5.jpg" alt="安否確認システム" class="">
+									</picture>
+									<div class="card--content">
+										<span class="card--content__num">05.</span>
+										<h3 class="card--content__title">安否確認システム</h3>
+										<p class="card--content__desc">テキストが入りますテキストが入りますテキストが入ります。</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
 			<section class="sect_3">
 				<div class="wrapper">
 					<div class="content">
