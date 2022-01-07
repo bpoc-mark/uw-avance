@@ -23,6 +23,35 @@ $(function () {
 
   }
 
+  $(window).on("load resize", function () {
+    var w = $(window).width();
+    if (w > 900) {
+      $('.nav--item__submenu').removeAttr('style');
+      $('.submenu-wrap').removeAttr('style');
+    }
+  });
+
+  $('.nav .nav--item:nth-child(2) .nav--link, .nav .nav--item:nth-child(3) .nav--link').click(function(e){
+    e.preventDefault();
+    if($(this).hasClass('isActive')){
+      $(this).removeClass('isActive');
+      $(this).next('.nav--item__submenu').slideUp();
+    }else{
+      $(this).addClass('isActive');
+      $(this).next('.nav--item__submenu').slideDown();
+    }
+  })
+  $('.nav .nav--item:nth-child(4) .nav--link').click(function(e){
+    e.preventDefault();
+    if($(this).hasClass('isActive')){
+      $(this).removeClass('isActive');
+      $(this).next('.submenu-wrap').slideUp();
+    }else{
+      $(this).addClass('isActive');
+      $(this).next('.submenu-wrap').slideDown();
+    }
+  })
+
 });
 
 
@@ -94,7 +123,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // Webfont読込
 window.WebFontConfig = {
   google: {
-    families: ['Noto+Serif+JP:300,400,600', 'Noto+Sans+JP:300,400,500&subset=japanese', 'Cormorant+Garamond:400,600']
+    families: ['Noto+Serif+JP:300,400,600', 'Noto+Sans+JP:300,400,500&subset=japanese', 'Cormorant+Garamond:400,600,1600']
   },
   active: function () {
     sessionStorage.fonts = true;
