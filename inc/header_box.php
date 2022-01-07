@@ -3,23 +3,43 @@ $str = explode('/', $url); ?>
 
 <div class="header_inner">
 
-	<?php
-	if ($str[1] == "") {
-		echo '<h1 class="logo"><a href="/"><img src="/images/common/logo.svg" alt="'. SITE_NAME .'"></a></h1>';
-	} else {
-		echo '<p class="logo"><a href="/"><img src="/images/common/logo.svg" alt="'. SITE_NAME .'"></a></p>';
-	}
-	?>
+	<div class="logo_cont">
+		<?php
+		if ($str[1] == "") {
+			echo '<h1 class="logo"><a href="/"><i>'. SITE_NAME .'</i></a></h1>';
+		} else {
+			echo '<p class="logo"><a href="/"><i>'. SITE_NAME .'</i></a></p>';
+		}
+		?>
+	</div>
 
-	<nav>
-		<ul>
-			<li><a href="/" <?php if ($str[1] == "") {
+	<nav class="nav">
+		<ul class="nav--list">
+			<li class="nav--item"><a href="/" class="nav--link isActive" <?php if ($str[1] == "") {
 												echo ' class="here"';
 											} ?>>HOME</a></li>
-			<li><a href="/about/" <?php if ($str[1] == "about") {
-															echo ' class="here"';
-														} ?>>about</a></li>
+			<li class="nav--item"><a href="/" class="nav--link" <?php if ($str[1] == "") {
+												echo ' class="here"';
+											} ?>>事業内容</a></li>
+			<li class="nav--item"><a href="/" class="nav--link" <?php if ($str[1] == "") {
+												echo ' class="here"';
+											} ?>>会社案内</a></li>
+			<li class="nav--item"><a href="/" class="nav--link" <?php if ($str[1] == "") {
+												echo ' class="here"';
+											} ?>>アバンセラボ</a></li>
+			<li class="nav--item"><a href="/" class="nav--link" <?php if ($str[1] == "") {
+												echo ' class="here"';
+											} ?>>採用情報</a></li>
+			<li class="nav--item"><a href="/" class="nav--link" <?php if ($str[1] == "") {
+												echo ' class="here"';
+											} ?>> お問い合わせ</a></li>
 		</ul>
 	</nav>
+
+	<div class="menu sp" id="nav_menu">
+		<span class="line line-t"></span>
+		<span class="line line-b"></span>
+		<p></p>
+	</div>
 
 </div>

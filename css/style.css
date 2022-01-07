@@ -81,9 +81,207 @@ header {
   left: 0;
   right: 0;
   z-index: 999;
-  background: #fff;
   width: 100%;
+  height: 160px;
+  transition: .3s ease-in-out;
+}
+
+header.scroll {
   height: 100px;
+}
+
+header.scroll .header_inner {
+  background-color: #eff0f2;
+}
+
+@media only screen and (max-width: 950px) {
+  header.scroll .header_inner {
+    padding: 0 25px;
+  }
+}
+
+header.scroll .header_inner .logo_cont .logo {
+  background-image: url(/images/common/logo_b.png);
+}
+
+header.scroll .header_inner .nav {
+  padding: 0 0 0 30px;
+}
+
+header.scroll .header_inner .nav--list {
+  justify-content: flex-start;
+}
+
+header.scroll .header_inner .nav--item:nth-child(-n+5) {
+  margin: 10px 20px 0 0;
+}
+
+header.scroll .header_inner .nav--item:last-child {
+  margin: 0 0 0 auto;
+  background-color: #060930;
+}
+
+header.scroll .header_inner .nav--item:last-child a {
+  color: #fff;
+}
+
+header.scroll .header_inner .nav--link {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 600;
+  color: #060930;
+}
+
+header.scroll .header_inner .nav--link.isActive::before {
+  background-color: #060930;
+}
+
+header.scroll .header_inner .nav--link::before {
+  background-color: #060930;
+}
+
+header .header_inner {
+  padding: 0 50px;
+  height: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  transition: .3s ease-in-out;
+}
+
+header .header_inner .logo_cont {
+  width: 258px;
+}
+
+header .header_inner .logo_cont .logo {
+  width: 100%;
+  height: 51px;
+  background-image: url(/images/common/logo_w.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header .header_inner .logo_cont .logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+header .header_inner .logo_cont .logo a i {
+  display: none;
+}
+
+header .header_inner .nav {
+  width: calc(100% - 258px);
+  transition: all .3s ease-in-out;
+}
+
+header .header_inner .nav--list {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  transition: all .3s ease-in-out;
+}
+
+header .header_inner .nav--item:nth-child(-n+4) {
+  margin: 0 20px 0 0;
+}
+
+@media only screen and (max-width: 1100px) {
+  header .header_inner .nav--item:nth-child(-n+4) {
+    margin: 0 10px 0 0;
+  }
+}
+
+header .header_inner .nav--item:last-child {
+  background-color: #fff;
+  width: 190px;
+  height: 50px;
+  margin: 0 0 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1100px) {
+  header .header_inner .nav--item:last-child {
+    width: 140px;
+    margin: 0 0 0 20px;
+  }
+}
+
+header .header_inner .nav--item:last-child:hover {
+  justify-content: flex-end;
+}
+
+header .header_inner .nav--item:last-child:hover a {
+  width: 150px;
+  height: 40px;
+  background-color: #3d5ba8;
+  color: #fff;
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 600;
+}
+
+header .header_inner .nav--item:last-child a {
+  color: #181d2c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: unset;
+}
+
+header .header_inner .nav--item:last-child a::before {
+  content: "";
+  display: none;
+}
+
+header .header_inner .nav--link {
+  position: relative;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: .06em;
+}
+
+@media only screen and (max-width: 1100px) {
+  header .header_inner .nav--link {
+    font-size: 13px;
+  }
+}
+
+header .header_inner .nav--link.isActive::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  transform: scale(1);
+  transition: .3s ease-in-out;
+}
+
+header .header_inner .nav--link::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  transform: scale(0);
+  transition: .3s ease-in-out;
+}
+
+header .header_inner .nav--link:hover::before {
+  transform: scale(1);
 }
 
 /* footer

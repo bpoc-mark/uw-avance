@@ -24,9 +24,9 @@
 <body id="Top">
 	<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/content_tag.php"); ?>
 	<div id="AllBox">
-		<!-- <header>
+		<header>
 			<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_box.php"); ?>
-		</header> -->
+		</header>
 
 		<main>
 			<div class="main_content">
