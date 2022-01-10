@@ -327,13 +327,11 @@ img {
 	c-button01
 ==================================*/
 .c-button01{
+  $root: &;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 18px;
-  font-weight: 500;
-  letter-spacing: .08em;
   transition: all .3s ease-in-out;
   @include sp{
     @include Noto_Serif(600);
@@ -343,57 +341,113 @@ img {
     @include Noto_Serif(600);
   }
   &--primary{
-    background-color: #181d2c;
+    position: relative;
     color: #fff !important;
     transition: .3s ease-in-out;
-    &::after{
-      content: "";
-      display: block;
-      width: 30px;
-      height: 1.5px;
-      background-color: #fff;
-      position: absolute;
-      top: 50%;
-      right: 0;
-      transform: translate(0, -50%);
-    }
     &::before{
       content: "";
       display: block;
-      width: 30px;
-      height: 1.5px;
+      width: 100%;
+      height: 100%;
       background-color: #181d2c;
       position: absolute;
-      top: 50%;
-      right: -30px;
-      transform: translate(0, -50%);
+      top: 0;
+      left: 0;
+      z-index: 0;
+      transition: .3s ease-in-out;
+    }
+    &::after{
+      content: "";
+      display: block;
+      width: 0;
+      height: 100%;
+      background-color: #3d5ba8;
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      transition: .3s ease-in-out;
+    }
+    #{$root} {
+      &--text{
+        color: #fff;
+        &::after{
+          content: "";
+          display: block;
+          width: 30px;
+          height: 1.5px;
+          background-color: #fff;
+          position: absolute;
+          top: 50%;
+          right: 0;
+          transform: translate(0, -50%);
+        }
+        &::before{
+          content: "";
+          display: block;
+          width: 30px;
+          height: 1.5px;
+          background-color: #181d2c;
+          position: absolute;
+          top: 50%;
+          right: -30px;
+          transform: translate(0, -50%);
+        }
+      }
     }
   }
   &--secondary{
-    background-color: #fff;
+    position: relative;
     color: #181d2c !important;
     transition: .3s ease-in-out;
-    &::after{
-      content: "";
-      display: block;
-      width: 30px;
-      height: 1.5px;
-      background-color: #181d2c;
-      position: absolute;
-      top: 50%;
-      right: 0;
-      transform: translate(0, -50%);
-    }
     &::before{
       content: "";
       display: block;
-      width: 30px;
-      height: 1.5px;
+      width: 100%;
+      height: 100%;
       background-color: #fff;
       position: absolute;
-      top: 50%;
-      right: -30px;
-      transform: translate(0, -50%);
+      top: 0;
+      left: 0;
+      z-index: 0;
+      transition: .3s ease-in-out;
+    }
+    &::after{
+      content: "";
+      display: block;
+      width: 0;
+      height: 100%;
+      background-color: #3d5ba8;
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      transition: .3s ease-in-out;
+    }
+    #{$root} {
+      &--text{
+        color: #181d2c;
+        &::after{
+          content: "";
+          display: block;
+          width: 30px;
+          height: 1.5px;
+          background-color: #181d2c;
+          position: absolute;
+          top: 50%;
+          right: 0;
+          transform: translate(0, -50%);
+        }
+        &::before{
+          content: "";
+          display: block;
+          width: 30px;
+          height: 1.5px;
+          background-color: #fff;
+          position: absolute;
+          top: 50%;
+          right: -30px;
+          transform: translate(0, -50%);
+        }
+      }
     }
   }
   &--lg{
@@ -414,14 +468,33 @@ img {
       height: 68px;
     }
   }
+  &--text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: .08em;
+    position: relative;
+    z-index: 5;
+    @include sp{
+      @include Noto_Serif(600);
+    }
+  }
 }
 
 .c-button01--primary{
   @include pc{
     &:hover{
-      background-color: #3d5ba8 !important;
-      &::before{
-        background-color: #3d5ba8;
+      &::after{
+        width: 100%;
+      }
+      .c-button01--text{
+        &::before{
+          background-color: #3d5ba8;
+        }
       }
     }
   }
@@ -430,13 +503,17 @@ img {
 .c-button01--secondary{
   @include pc{
     &:hover{
-      background-color: #3d5ba8 !important;
-      color: #fff !important;
       &::after{
-        background-color: #fff;
+        width: 100%;
       }
-      &::before{
-        background-color: #3d5ba8;
+      .c-button01--text{
+        color: #fff;
+        &::after{
+          background-color: #fff;
+        }
+        &::before{
+          background-color: #3d5ba8;
+        }
       }
     }
   }
