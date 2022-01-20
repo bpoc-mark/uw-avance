@@ -118,7 +118,7 @@
 					<figure>
 						<img src="/images/common/footer_img_1.png" alt="情報セキュリティ基本方針">
 					</figure>
-					<p>情報セキュリティ基本方針 </p>
+					<a href="">情報セキュリティ基本方針 </a>
 				</div>
 			</div>
 		</div>
