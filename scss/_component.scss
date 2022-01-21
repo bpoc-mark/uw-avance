@@ -518,3 +518,104 @@ img {
     }
   }
 }
+
+/*==================================
+	LOWER PAGE HEADER 01
+==================================*/
+.p-header01{
+  background-color: #eff0f2;
+  height: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include sp{
+    height: 300px;
+  }
+  &--cont{
+
+  }
+  &--en{
+    text-align: center;
+    @include Cormorant(600);
+    font-size: 60px;
+    letter-spacing: .04em;
+    color: #060930;
+    @include sp{
+      font-size: 48px;
+    }
+  }
+  &--jp{
+    text-align: center;
+    @include Noto_Serif(600);
+    font-size: 14px;
+    letter-spacing: .14em;
+    color: #000000;
+    margin: 3px 0 0;
+    @include sp{
+      font-size: 12px;
+    }
+  }
+}
+
+/*==================================
+	PAGE BREADCRUMBS
+==================================*/
+.c-breadcrumb{
+  $root: &;
+  position: relative;
+  margin: -127px 0 0;
+  @include sp{
+    height: 65px;
+    background-color: #fff;
+    margin: -65px 0 0;
+  }
+  &::before{
+    content: "";
+    display: block;
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  &__wrap{
+    position: relative;
+    z-index: 2;
+    height: 127px;
+    background-color: #fff;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 12px 0 0;
+  }
+  &__item{
+    position: relative;
+    padding: 0 15px 0 0;
+    margin: 0 5px 0 0;
+    &:not(:last-child){
+      #{$root} {
+        &__link{
+          &::after{
+            content: "";
+            display: block;
+            width: 8px;
+            height: 1px;
+            background-color: #002674;
+            position: absolute;
+            top: 14px;
+            right: 0;
+          }
+        }
+      }
+    }
+    
+  }
+  &__link{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .02em;
+    color: #7d8aa2 !important;
+  }
+}
