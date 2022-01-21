@@ -1,0 +1,175 @@
+@use "sass:math";
+/*==================================
+  News-Details
+==================================*/
+#News-Details main {
+  background-color: #eff0f2;
+  .news_section{
+    .wrapper{
+      position: relative;
+      &:first-child{
+        &::before{
+          content: "";
+          display: block;
+          width: 50%;
+          height: 100%;
+          background-color: #fff;
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: 1;
+        }
+      }
+      &:last-child{
+        padding: 40px 0 140px;
+      }
+      .container{
+        position: relative;
+        z-index: 2;
+        .news{
+          padding: 25px 100px 100px 50px;
+          background-color: #fff;
+          &__datecat{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 0 30px;
+            margin: 0 0 14px;
+            &--date{
+              @include Cormorant(400);
+              font-size: 18px;
+              letter-spacing: .02em;
+              color: #474747;
+              position: relative;
+              top: -2px;
+            }
+            &--separator{
+              position: relative;
+              display: block;
+              width: 2px;
+              height: 8px;
+              margin: 0 10px;
+              &::before{
+                content: "";
+                display: block;
+                width: 2px;
+                height: 2px;
+                background-color: #919191;
+                position: absolute;
+                top: 0;
+                left: 0;
+              }
+              &::after{
+                content: "";
+                display: block;
+                width: 2px;
+                height: 2px;
+                background-color: #919191;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+              }
+            }
+            &--cat{
+              font-weight: 400;
+              font-size: 12px;
+              letter-spacing: .04em;
+              color: #474747;
+            }
+          }
+          &__title{
+            font-size: 28px;
+            font-weight: 500;
+            line-height: 36px;
+            letter-spacing: .1em;
+            color: #060930;
+            border-bottom: 1px solid #b7c2d6;
+            padding: 0 30px 20px;
+            margin: 0 0 50px;
+          }
+          &__content{
+            padding: 0 30px;
+            h3{
+              font-weight: 500;
+              font-size: 24px;
+              letter-spacing: .1em;
+              line-height: 36px;
+              color: #060930;
+              margin: 0 0 18px;
+            }
+            p{
+              line-height: 24px;
+              letter-spacing: .02em;
+              color: #000;
+              margin: 0 0 35px;
+            }
+            img{
+              width: 70%;
+              display: block;
+              margin: 0 0 50px;
+            }
+            a{
+              color: #002673;
+              border-bottom: 1px solid #002673;
+            }
+          }
+        }
+      }
+      .post_nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &--prev{
+          a{
+            position: relative;
+            @include Noto_Serif(600);
+            letter-spacing: .08em;
+            color: #181d2c;
+            &::before{
+              content: "";
+              display: block;
+              width: 30px;
+              height: 1px;
+              background-color: #181d2c;
+              position: absolute;
+              top: 11px;
+              left: -40px;
+            }
+          }
+        }
+        &--list{
+          margin: 0 40px;
+          a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100px;
+            height: 30px;
+            background-color: #181d2c;
+            color: #fff;
+            @include Noto_Serif(600);
+            letter-spacing: .08em;
+          }
+        }
+        &--next{
+          a{
+            position: relative;
+            @include Noto_Serif(600);
+            letter-spacing: .08em;
+            color: #181d2c;
+            &::after{
+              content: "";
+              display: block;
+              width: 30px;
+              height: 1px;
+              background-color: #181d2c;
+              position: absolute;
+              top: 11px;
+              right: -40px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
