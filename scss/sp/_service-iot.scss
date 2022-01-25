@@ -1,0 +1,130 @@
+@use "sass:math";
+/*==================================
+  Service-IOT
+==================================*/
+#Service-IOT main {
+  background-color: #eff0f2;
+  .sect_1{
+    position: relative;
+    background-color: #fff;
+    .container{
+      position: relative;
+      z-index: 2;
+      .content{
+        text-align: left;
+        background-color: #fff;
+        padding: 0 0 75px;
+        h2{
+          @include Noto_Serif(600);
+          font-size: 18px;
+          letter-spacing: .03em;
+          line-height: 27px;
+          color: #060930;
+          span{
+            font-size: 11px;
+          }
+        }
+        p{
+          letter-spacing: .02em;
+          line-height: 25.6px;
+          color: #474747;
+          margin: 18px 0 0;
+        }
+      }
+    }
+  }
+  .service{
+    background-color: #fff;
+    &__wrapper{
+      position: relative;
+      .container{
+        position: relative;
+        z-index: 2;
+        padding-left: 0;
+        padding-right: 0;
+      }
+      &--row{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #fff;
+      }
+      &--col{
+        width: 100%;
+        &:last-child{
+          padding: 53px 20px 80px;
+        }
+        .ttl{
+          @include Noto_Serif(600);
+          font-size: 24px;
+          letter-spacing: .14em;
+          line-height: 30px;
+          color: #000;
+          &::after{
+            content: "";
+            display: block;
+            width: 50px;
+            height: 1px;
+            background-color: #9fb2d4;
+            margin: 16px 0 20px;
+          }
+        }
+        .sub_list{
+          .sub_item{
+            &:not(:last-child){
+              margin: 0 0 25px;
+            }
+            .sub_ttl{
+              @include Noto_Serif(600);
+              font-size: 24px;
+              letter-spacing: .06em;
+              line-height: 36px;
+              color: #060930;
+            }
+            .desc{
+              line-height: 25.6px;
+              letter-spacing: .02em;
+              color: #474747;
+              margin: 3px 0 0;
+            }
+            .list_wrap{
+              background-color: #eff0f2;
+              margin: 15px 0 0;
+              padding: 15px 15px 14px;
+              &--ttl{
+                @include Noto_Serif(600); 
+                font-size: 20px;
+                letter-spacing: .06em;
+                line-height: 28px;
+                color: #060930;
+                margin: 0 0 8px;
+              }
+              &--con{
+    
+              }
+              &--item{
+                position: relative;
+                padding: 0 0 0 15px;
+                &::before{
+                  content: "";
+                  display: block;
+                  width: 8px;
+                  height: 8px;
+                  background-color: #00c8e0;
+                  border-radius: 50px;
+                  position: absolute;
+                  top: 10px;
+                  left: 0;
+                }
+              }
+              &--txt{
+                line-height: 25.6px;
+                letter-spacing: .02em;
+                color: #474747;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

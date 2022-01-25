@@ -536,6 +536,9 @@ img {
     &__service{
       background: url(/images/service/header_bg.jpg) center center / cover no-repeat;
     }
+    &__service-iot{
+      background: url(/images/service-iot/header_bg.jpg) center center / cover no-repeat;
+    }
     #{$p-header01} {
       &--en{
         color: #fff;
@@ -641,7 +644,7 @@ img {
 	CARD FOOTER
 ==================================*/
 .c-service01{
-  padding: 0 0 140px;
+  padding: 100px 0 140px;
   @include sp{
     padding: 60px 0 100px;
   }
