@@ -1,0 +1,42 @@
+@use "sass:math";
+/*==================================
+  Recruit-People
+==================================*/
+#Recruit-People main {
+  background-color: #eff0f2;
+  .sect_2{
+    padding: 0 0 100px;
+    .wrapper{
+      .container{
+        padding-left: 0;
+        padding-right: 0;
+        .list{
+          padding: 0 0 55px;
+          background: #fff;
+          .item{
+            &:not(:last-child){
+              margin: 0 0 30px
+            }
+            .ttl{
+              @include Noto_Serif(600);
+              font-size: 20px;
+              letter-spacing: .06em;
+              line-height: 28px;
+              color: #060930;
+              padding: 0 20px;
+            }
+            .desc{
+              letter-spacing: .02em;
+              line-height: 25.6px;
+              margin: 7px 0 0;
+              padding: 0 20px;
+            }
+            img{
+              margin: 55px 0 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,113 @@
+@use "sass:math";
+/*==================================
+  Recruit-People
+==================================*/
+#Recruit-People main {
+  background-color: #eff0f2;
+  .recruit_menu{
+    position: relative;
+    &::before{
+      content: "";
+      display: block;
+      width: 50%;
+      height: 100%;
+      background-color: #fff;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+    .container{
+      position: relative;
+      z-index: 2;
+      .content{
+        background-color: #fff;
+        padding: 25px 50px 60px 0;
+      }
+    }
+    &--list{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      &:first-child{
+        margin: 0 0 15px;
+      }
+    }
+    &--item{
+      &:not(:last-child){
+        border-right: 1px solid #e2e2e2;
+        margin: 0 15px 0 0;
+        padding: 0 15px 0 0;
+      }
+      &--lbl{
+        border-right: none !important;
+        padding: 0 !important;
+      }
+    }
+    &--link{
+      letter-spacing: .05em;
+      color: #060930;
+      &__active{
+        color: #7d8aa2;
+      }
+      &--lbl{
+        background-color: #eff0f2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 155px;
+        height: 32px;
+        pointer-events: none;
+      }
+      &:hover{
+        color: #7d8aa2;
+      }
+    }
+  }
+  .sect_2{
+    padding: 0 0 140px;
+    .wrapper{
+      position: relative;
+      &::before{
+        content: "";
+        display: block;
+        width: 50%;
+        height: 100%;
+        background-color: #fff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+      }
+      .container{
+        position: relative;
+        z-index: 2;
+        .list{
+          background: #fff;
+          padding: 0 100px 115px 0;
+          .item{
+            &:not(:last-child){
+              margin: 0 0 41px
+            }
+            .ttl{
+              @include Noto_Serif(600);
+              font-size: 24px;
+              letter-spacing: .06em;
+              line-height: 36px;
+              color: #060930;
+            }
+            .desc{
+              letter-spacing: .02em;
+              line-height: 25.6px;
+              margin: 7px 0 0;
+            }
+            img{
+              margin: 25px 0 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
