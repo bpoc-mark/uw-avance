@@ -1,0 +1,64 @@
+@use "sass:math";
+/*==================================
+  History
+==================================*/
+#History main {
+  background-color: #eff0f2;
+  .sect_1{
+    padding: 0 0 100px;
+    .wrapper{
+      background-color: #fff;
+      .container{
+        position: relative;
+        z-index: 2;
+        .content{
+          background-color: #fff;
+          padding: 0 0 55px 0; 
+          .history{
+            &--item{
+              display: flex;
+              flex-wrap: wrap;
+              &:not(:last-child){
+                margin: 0 0 20px;
+              }
+              &__left{
+                width: 100%;
+                .year{
+                  @include Noto_Serif(600);
+                  font-size: 20px;
+                  letter-spacing: .06em;
+                  color: #060930;
+                }
+              }
+              &__right{
+                width: 100%;
+                padding: 7px 0 0 0;
+                .date_cont{
+                  display: flex;
+                  flex-wrap: wrap;
+                  &:not(:last-child){
+                    margin: 0 0 6px;
+                  }
+                  .date{
+                    width: 45px;
+                    color: #000;
+                  }
+                  .info{
+                    width: calc(100% - 45px);
+                    line-height: 25.6px;
+                    a{
+                      color: #474747;
+                      text-decoration: underline;
+                      text-underline-offset: 5px;
+                      text-decoration-color: #474747;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
