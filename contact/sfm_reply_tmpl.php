@@ -24,24 +24,31 @@ $replyMessage = <<< EOD
 
 ────────────────────────────────────
 
+■貴社名
+{$sfm_mail->companyname}
+
 ■お名前
 {$sfm_mail->name}
-
-■メールアドレス
-{$sfm_mail->email}
 
 ■ご住所
 〒{$sfm_mail->zip}
 {$sfm_mail->address}
 
-■チェックボックス　
-{$sfm_mail->check}
+■メールアドレス
+{$sfm_mail->email}
 
-■セレクトボックス
-{$sfm_mail->select}
+■FAX番号
+{$sfm_mail->fax}
 
-■お問い合わせ内容
+■お電話番号
+{$sfm_mail->tel}
+
+■お問い合わせ種別
+{$sfm_mail->inquiry}
+
+■お問合せ内容
 {$sfm_mail->message}
+
 
 
 ==============================================

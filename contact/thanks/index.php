@@ -28,13 +28,33 @@
 		</header>
 
 		<main id="Contact" class="sfm3">
+			<section class="p-header01">
+				<div class="p-header01--cont">
+					<h1 class="p-header01--en">Contact</h1>
+					<p class="p-header01--jp">お問い合わせ</p>
+				</div>
+			</section>
+			<section class="c-breadcrumb">
+				<div class="container">
+					<ul class="c-breadcrumb__wrap pc">
+						<li class="c-breadcrumb__item">
+							<a href="" class="c-breadcrumb__link">HOME</a>
+						</li>
+						<li class="c-breadcrumb__item">
+							<a href="" class="  c-breadcrumb__link">お問い合わせ</a>
+						</li>
+					</ul>
+				</div>
+			</section>
 			<section class="form-sec">
-				<div class="send_comp container">
-					<p>
-						この度は、株式会社●●●●へお問合わせ頂き、<br class="pc">誠にありがとうございました。<br><br>
-						内容を確認後、ご入力されたメールアドレス宛にお返事致します。<br><br>なお、ご記入頂いたメールアドレス宛てに自動返信メールをお送りしております。<br>自動返信メールが届いていない場合は、メールアドレスが誤っている可能性がございます。<br>その際は大変お手数ですが、再度お問合わせくださいませ。</p>
-					<div class="contact_back">
-						<a href="/">トップへ戻る</a>
+				<div class="wrapper">
+					<div class=" container">
+						<div class="send_comp">
+							<p>
+								この度は、株式会社●●●●へお問合わせ頂き、<br class="pc">誠にありがとうございました。<br><br>
+								内容を確認後、ご入力されたメールアドレス宛にお返事致します。<br><br>なお、ご記入頂いたメールアドレス宛てに自動返信メールをお送りしております。<br>自動返信メールが届いていない場合は、メールアドレスが誤っている可能性がございます。<br>その際は大変お手数ですが、再度お問合わせくださいませ。</p>
+							<a href="/" class="c-button01 c-button01--primary c-button01--lg"><span class="c-button01--text">トップへ戻る</span></a>
+						</div>
 					</div>
 				</div>
 			</section>
