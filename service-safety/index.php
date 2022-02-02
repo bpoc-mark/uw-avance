@@ -14,7 +14,7 @@
   <meta property="og:description" content="<?php echo DESCRIPTION ?>" />
   <meta property="og:url" content="<?php echo CANONICAL ?>" />
 
-  <title><?php echo SITE_NAME ?> | 安否確認システム</title>
+  <title>安否確認システム | <?php echo SITE_NAME ?></title>
 
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_include.php"); ?>
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/ga.php"); ?>
@@ -70,7 +70,7 @@
           <div class="container">
             <div class="service__wrapper--row">
               <div class="service__wrapper--col service__wrapper--col__img1">
-                <img src="/images/service-safety/img_2.jpg" class="sp" alt="ANPICの特徴">
+                <img src="/images/service-safety/sp/img_2.jpg" class="sp" alt="ANPICの特徴">
               </div>
               <div class="service__wrapper--col">
                 <div class="service__wrapper--col__content">

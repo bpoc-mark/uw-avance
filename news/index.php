@@ -14,7 +14,7 @@
   <meta property="og:description" content="<?php echo DESCRIPTION ?>" />
   <meta property="og:url" content="<?php echo CANONICAL ?>" />
 
-  <title><?php echo SITE_NAME ?></title>
+  <title>新着情報 | <?php echo SITE_NAME ?></title>
 
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_include.php"); ?>
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/ga.php"); ?>
@@ -24,56 +24,182 @@
 <body id="News">
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/content_tag.php"); ?>
   <div id="AllBox">
-    <header>
+    <header class="lp-header-01">
       <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_box.php"); ?>
     </header>
 
     <main>
-      <div class="container">
-        <ul class="news_ul">
-          <li class="news_li">
-            <a href="">
-              <span class="date">2020.12.08</span>
-              <span class="img_wrap"><img src="https://placehold.jp/80x65.png" alt="ダミー画像"></span>
-              <span class="title">ダミーテキストダミーテキストダミーテキストダミーテキスト</span>
-            </a>
-          </li>
-          <li class="news_li">
-            <a href="">
-              <span class="date">2020.12.08</span>
-              <span class="img_wrap"><img src="https://placehold.jp/80x65.png" alt="ダミー画像"></span>
-              <span class="title">ダミーテキストダミーテキストダミーテキストダミーテキスト</span>
-            </a>
-          </li>
-          <li class="news_li">
-            <a href="">
-              <span class="date">2020.12.08</span>
-              <span class="img_wrap"><img src="https://placehold.jp/80x65.png" alt="ダミー画像"></span>
-              <span class="title">ダミーテキストダミーテキストダミーテキストダミーテキスト</span>
-            </a>
-          </li>
-        </ul>
-
-        <!-- Wordpress -->
-        <div class="page_navigation">
-          <div class="wp-pagenavi">
-            <a class="previouspostslink" href="#" rel="prev">PREV</a>
-            <a class="page smaller" href="#">1</a>
-            <span class="current">2</span>
-            <a class="page larger" href="#">3</a>
-            <a class="nextpostslink" href="#" rel="next">NEXT</a>
-          </div>
+      <section class="p-header01">
+        <div class="p-header01--cont">
+          <h1 class="p-header01--en">News</h1>
+          <p class="p-header01--jp">新着情報</p>
         </div>
-
-        <!-- Movable Type -->
-        <div class="page_navigation">
-          <ul>
-            <li><span class="current_page">1</span></li>
-            <li><a href="#" class="link_page">2</a></li>
-            <li><a href="#" class="link_page">3</a></li>
+      </section>
+      <section class="c-breadcrumb">
+        <div class="container">
+          <ul class="c-breadcrumb__wrap pc">
+            <li class="c-breadcrumb__item">
+              <a href="" class="c-breadcrumb__link">HOME</a>
+            </li>
+            <li class="c-breadcrumb__item">
+              <a href="" class="c-breadcrumb__link">新着情報</a>
+            </li>
+            <li class="c-breadcrumb__item">
+              <a href="" class="c-breadcrumb__link">タイトルが入りますタイトルが入りますタイトル</a>
+            </li>
           </ul>
         </div>
-      </div>
+      </section>
+      <section class="sect_1">
+        <div class="wrapper">
+          <div class="container">
+            <ul class="news">
+              <li class="news__item">
+                <a href="" class="news__link">
+                  <figure class="news__img">
+                    <img src="/images/top/sect_6/img1.jpg" alt="タイトルが入りますタイトルが入ります">
+                  </figure>
+                  <div class="news__content">
+                    <p class="news__content__wrap"><span class="news__content--date">2021.01.01</span><span class="news__content__wrap--separator">&nbsp;&nbsp;:&nbsp;&nbsp;</span><span class="news__content--cat">お知らせ</span></p>
+                    <h4 class="news__content--title">タイトルが入りますタイトルが入ります</h4>
+                  </div>
+                </a>
+              </li>
+              <li class="news__item">
+                <a href="" class="news__link">
+                  <figure class="news__img">
+                    <img src="/images/top/sect_6/img2.jpg" alt="タイトルが入りますタイトルが入ります">
+                  </figure>
+                  <div class="news__content">
+                    <p class="news__content__wrap"><span class="news__content--date">2021.01.01</span><span class="news__content__wrap--separator">&nbsp;&nbsp;:&nbsp;&nbsp;</span><span class="news__content--cat">休業のお知らせ</span></p>
+                    <h4 class="news__content--title">タイトルが入りますタイトルが入ります</h4>
+                  </div>
+                </a>
+              </li>
+              <li class="news__item">
+                <a href="" class="news__link">
+                  <figure class="news__img">
+                    <img src="/images/top/sect_6/img3.jpg" alt="タイトルが入りますタイトルが入ります">
+                  </figure>
+                  <div class="news__content">
+                    <p class="news__content__wrap"><span class="news__content--date">2021.01.01</span><span class="news__content__wrap--separator">&nbsp;&nbsp;:&nbsp;&nbsp;</span><span class="news__content--cat">お知らせ</span></p>
+                    <h4 class="news__content--title">タイトルが入りますタイトルが入ります</h4>
+                  </div>
+                </a>
+              </li>
+              <li class="news__item">
+                <a href="" class="news__link">
+                  <figure class="news__img">
+                    <img src="/images/top/sect_6/img4.jpg" alt="タイトルが入りますタイトルが入ります">
+                  </figure>
+                  <div class="news__content">
+                    <p class="news__content__wrap"><span class="news__content--date">2021.01.01</span><span class="news__content__wrap--separator">&nbsp;&nbsp;:&nbsp;&nbsp;</span><span class="news__content--cat">お知らせ</span></p>
+                    <h4 class="news__content--title">タイトルが入りますタイトルが入ります</h4>
+                  </div>
+                </a>
+              </li>
+              <li class="news__item">
+                <a href="" class="news__link">
+                  <figure class="news__img">
+                    <img src="/images/top/sect_6/img1.jpg" alt="タイトルが入りますタイトルが入ります">
+                  </figure>
+                  <div class="news__content">
+                    <p class="news__content__wrap"><span class="news__content--date">2021.01.01</span><span class="news__content__wrap--separator">&nbsp;&nbsp;:&nbsp;&nbsp;</span><span class="news__content--cat">お知らせ</span></p>
+                    <h4 class="news__content--title">タイトルが入りますタイトルが入ります</h4>
+                  </div>
+                </a>
+              </li>
+              <li class="news__item">
+                <a href="" class="news__link">
+                  <figure class="news__img">
+                    <img src="/images/top/sect_6/img2.jpg" alt="タイトルが入りますタイトルが入ります">
+                  </figure>
+                  <div class="news__content">
+                    <p class="news__content__wrap"><span class="news__content--date">2021.01.01</span><span class="news__content__wrap--separator">&nbsp;&nbsp;:&nbsp;&nbsp;</span><span class="news__content--cat">休業のお知らせ</span></p>
+                    <h4 class="news__content--title">タイトルが入りますタイトルが入ります</h4>
+                  </div>
+                </a>
+              </li>
+              <li class="news__item">
+                <a href="" class="news__link">
+                  <figure class="news__img">
+                    <img src="/images/top/sect_6/img3.jpg" alt="タイトルが入りますタイトルが入ります">
+                  </figure>
+                  <div class="news__content">
+                    <p class="news__content__wrap"><span class="news__content--date">2021.01.01</span><span class="news__content__wrap--separator">&nbsp;&nbsp;:&nbsp;&nbsp;</span><span class="news__content--cat">お知らせ</span></p>
+                    <h4 class="news__content--title">タイトルが入りますタイトルが入ります</h4>
+                  </div>
+                </a>
+              </li>
+              <li class="news__item">
+                <a href="" class="news__link">
+                  <figure class="news__img">
+                    <img src="/images/top/sect_6/img4.jpg" alt="タイトルが入りますタイトルが入ります">
+                  </figure>
+                  <div class="news__content">
+                    <p class="news__content__wrap"><span class="news__content--date">2021.01.01</span><span class="news__content__wrap--separator">&nbsp;&nbsp;:&nbsp;&nbsp;</span><span class="news__content--cat">お知らせ</span></p>
+                    <h4 class="news__content--title">タイトルが入りますタイトルが入ります</h4>
+                  </div>
+                </a>
+              </li>
+              <li class="news__item">
+                <a href="" class="news__link">
+                  <figure class="news__img">
+                    <img src="/images/top/sect_6/img1.jpg" alt="タイトルが入りますタイトルが入ります">
+                  </figure>
+                  <div class="news__content">
+                    <p class="news__content__wrap"><span class="news__content--date">2021.01.01</span><span class="news__content__wrap--separator">&nbsp;&nbsp;:&nbsp;&nbsp;</span><span class="news__content--cat">お知らせ</span></p>
+                    <h4 class="news__content--title">タイトルが入りますタイトルが入ります</h4>
+                  </div>
+                </a>
+              </li>
+              <li class="news__item">
+                <a href="" class="news__link">
+                  <figure class="news__img">
+                    <img src="/images/top/sect_6/img2.jpg" alt="タイトルが入りますタイトルが入ります">
+                  </figure>
+                  <div class="news__content">
+                    <p class="news__content__wrap"><span class="news__content--date">2021.01.01</span><span class="news__content__wrap--separator">&nbsp;&nbsp;:&nbsp;&nbsp;</span><span class="news__content--cat">休業のお知らせ</span></p>
+                    <h4 class="news__content--title">タイトルが入りますタイトルが入ります</h4>
+                  </div>
+                </a>
+              </li>
+              <li class="news__item">
+                <a href="" class="news__link">
+                  <figure class="news__img">
+                    <img src="/images/top/sect_6/img3.jpg" alt="タイトルが入りますタイトルが入ります">
+                  </figure>
+                  <div class="news__content">
+                    <p class="news__content__wrap"><span class="news__content--date">2021.01.01</span><span class="news__content__wrap--separator">&nbsp;&nbsp;:&nbsp;&nbsp;</span><span class="news__content--cat">お知らせ</span></p>
+                    <h4 class="news__content--title">タイトルが入りますタイトルが入ります</h4>
+                  </div>
+                </a>
+              </li>
+              <li class="news__item">
+                <a href="" class="news__link">
+                  <figure class="news__img">
+                    <img src="/images/top/sect_6/img4.jpg" alt="タイトルが入りますタイトルが入ります">
+                  </figure>
+                  <div class="news__content">
+                    <p class="news__content__wrap"><span class="news__content--date">2021.01.01</span><span class="news__content__wrap--separator">&nbsp;&nbsp;:&nbsp;&nbsp;</span><span class="news__content--cat">お知らせ</span></p>
+                    <h4 class="news__content--title">タイトルが入りますタイトルが入ります</h4>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <!-- Wordpress -->
+            <div class="page_navigation">
+              <div class="wp-pagenavi">
+                <a class="previouspostslink" href="#" rel="prev">PREV</a>
+                <a class="page smaller" href="#">1</a>
+                <span class="current">2</span>
+                <a class="page larger" href="#">3</a>
+                <a class="nextpostslink" href="#" rel="next">NEXT</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>

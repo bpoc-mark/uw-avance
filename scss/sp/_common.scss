@@ -61,6 +61,20 @@ header {
   width: 100%;
   height: 90px;
   transition: .3s ease-in-out;
+  &.lp-header-01{
+    .header_inner{
+      .logo_cont{
+        .logo{
+          background-image: url(/images/common/logo_b.png);
+        }
+      }
+      #nav_menu{
+        span{
+          background: #181d2c;
+        }
+      }
+    }
+  }
   &.scroll{
     height: 50px;
     .header_inner{

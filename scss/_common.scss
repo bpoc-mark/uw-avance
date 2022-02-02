@@ -76,6 +76,36 @@ header {
     top: 0;
     transition: 2s ease-in-out;
   }
+  &.lp-header-01{
+    .header_inner{
+      .logo_cont{
+        .logo{
+          background-image: url(/images/common/logo_b.png);
+        }
+      }
+      .nav{
+        &--item{
+          &:last-child{
+            background-color: #060930;
+            a{
+              color: #fff;
+            }
+          }
+        }
+        &--link{
+          color: #060930;
+          &.isActive{
+            &::before{
+              background-color: #060930;
+            }
+          }
+          &::before{
+            background-color: #060930;
+          }
+        }
+      }
+    }
+  }
   &.scroll{
     transition: .3s ease-in-out !important;
     height: 100px;
