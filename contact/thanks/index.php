@@ -23,7 +23,7 @@
 <body id="Competitive">
 	<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/content_tag.php"); ?>
 	<div id="AllBox">
-		<header>
+		<header class="lp-header-01">
 			<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_box.php"); ?>
 		</header>
 

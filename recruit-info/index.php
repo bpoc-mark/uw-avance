@@ -14,7 +14,7 @@
   <meta property="og:description" content="<?php echo DESCRIPTION ?>" />
   <meta property="og:url" content="<?php echo CANONICAL ?>" />
 
-  <title><?php echo SITE_NAME ?> | 採用情報</title>
+  <title>採用情報 | <?php echo SITE_NAME ?></title>
 
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_include.php"); ?>
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/ga.php"); ?>
@@ -78,7 +78,7 @@
                     テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。<br>
                     テキストが入りますテキストが入りますテキストが入りますテキスト。  
                   </p>
-                  <a href="" class="c-button01 c-button01--primary c-button01--lg"><span class="c-button01--text">人への想い</span></a>
+                  <a href="/recruit-people/" class="c-button01 c-button01--primary c-button01--lg"><span class="c-button01--text">人への想い</span></a>
                 </div>
               </div>
             </div>
@@ -100,7 +100,7 @@
                   </p>
                   <ul class="interview">
                     <li class="interview--item">
-                      <a href="" class="interview--link">
+                      <a href="/recruit-interview-2009/" class="interview--link">
                         <div class="interview--item--row">
                           <div class="interview--item--col">
                             <span class="interview--item--col__num">01.</span>
@@ -113,7 +113,7 @@
                       </a>
                     </li>
                     <li class="interview--item">
-                      <a href="" class="interview--link">
+                      <a href="/recruit-interview-2013/" class="interview--link">
                         <div class="interview--item--row">
                           <div class="interview--item--col">
                             <span class="interview--item--col__num">02.</span>
@@ -126,7 +126,7 @@
                       </a>
                     </li>
                     <li class="interview--item">
-                      <a href="" class="interview--link">
+                      <a href="/recruit-interview-2015/" class="interview--link">
                         <div class="interview--item--row">
                           <div class="interview--item--col">
                             <span class="interview--item--col__num">03.</span>
@@ -139,7 +139,7 @@
                       </a>
                     </li>
                     <li class="interview--item">
-                      <a href="" class="interview--link">
+                      <a href="/recruit-interview-2019/" class="interview--link">
                         <div class="interview--item--row">
                           <div class="interview--item--col">
                             <span class="interview--item--col__num">04.</span>
@@ -175,7 +175,7 @@
               </a>
             </div>
             <div class="c-service01--col">
-              <a href="" class="c-service01__link">
+              <a href="/contact/" class="c-service01__link">
                 <div class="c-service01__content">
                   <div class="c-service01__content--col c-service01__content--col--bg2">
                     <img src="/images/recruit-info/card-footer/sp/img_2.jpg" alt="エントリーフォーム" class="sp">

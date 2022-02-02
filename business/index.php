@@ -14,7 +14,7 @@
   <meta property="og:description" content="<?php echo DESCRIPTION ?>" />
   <meta property="og:url" content="<?php echo CANONICAL ?>" />
 
-  <title><?php echo SITE_NAME ?> | 事業内容</title>
+  <title>事業内容 | <?php echo SITE_NAME ?></title>
 
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_include.php"); ?>
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/ga.php"); ?>
@@ -24,7 +24,7 @@
 <body id="Business">
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/content_tag.php"); ?>
   <div id="AllBox">
-    <header>
+    <header class="lp-header-01">
       <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_box.php"); ?>
     </header>
 
@@ -55,19 +55,19 @@
          <div class="content">
             <ul class="page-menu--list">
               <li class="page-menu--item">
-                <a href="" class="page-menu--link">会社案内</a>
+                <a href="/company/" class="page-menu--link">会社案内</a>
               </li>
               <li class="page-menu--item">
-                <a href="" class="page-menu--link">トップメッセージ</a>
+                <a href="/message/" class="page-menu--link">トップメッセージ</a>
               </li>
               <li class="page-menu--item">
-                <a href="" class="page-menu--link page-menu--link__active">事業内容</a>
+                <a href="/business/" class="page-menu--link page-menu--link__active">事業内容</a>
               </li>
               <li class="page-menu--item">
-                <a href="" class="page-menu--link">開発環境実績</a>
+                <a href="/development/" class="page-menu--link">開発環境実績</a>
               </li>
               <li class="page-menu--item">
-                <a href="" class="page-menu--link">沿革</a>
+                <a href="/history/" class="page-menu--link">沿革</a>
               </li>
             </ul>
          </div>

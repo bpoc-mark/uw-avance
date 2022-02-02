@@ -4,6 +4,11 @@
 ==================================*/
 #Development main {
   background-color: #eff0f2;
+  .p-header01{
+    &--jp{
+      margin: 17px 0 0 ;
+    }
+  }
   .sect_1{
     padding: 0 0 140px;
     .wrapper{

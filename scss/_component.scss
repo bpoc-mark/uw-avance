@@ -137,15 +137,15 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 45px 0 50px;
+    margin: 15px 0 0;
     @include sp {
-      margin: 30px 0 40px;
+      margin: 44px 0 0;
     }
     > .page,
     .current {
-      font-size: 16px;
-      font-weight: 500;
-      width: 40px;
+      @include Noto_Serif(600);
+      font-size: 18px;
+      width: 23px;
       height: 40px;
       display: inline-flex;
       align-items: center;
@@ -154,25 +154,29 @@ img {
       box-sizing: border-box;
       margin: 0 5px;
       &:not(.current) {
-        background-color: #f3f3f3;
+        color: #181d2c;
         @include pc {
           &:hover {
-            color: #fff;
-            background-color: #000;
+            color: #002673;
           }
         }
       }
 
       &.current {
-        background-color: #000;
-        color: #fff;
+        color: #002673;
+        text-decoration: underline;
+        text-decoration-color: #002673;
+        text-underline-offset: 7px;
       }
     }
 
     .nextpostslink,
     .previouspostslink {
+      @include Noto_Serif(600);
+      font-size: 16px;
+      color: #181d2c;
+      letter-spacing: .08em;
       position: relative;
-      font-weight: 500;
       box-sizing: border-box;
       &::before {
         content: "";
@@ -180,19 +184,16 @@ img {
         top: 0;
         bottom: 0;
         margin: auto;
-        width: 9px;
-        height: 14px;
-        background-image: url(../images/common/pager_arrow.svg);
-        background-repeat: no-repeat;
-        background-size: contain;
-        transition: all 0.3s ease;
+        width: 30px;
+        height: 1px;
+        background-color: #1c1c1c;
       }
 
       &.previouspostslink {
         padding-left: 33px;
-        margin-right: 30px;
+        margin-right: 20px;
         &::before {
-          left: 0;
+          left: -10px;
           transform: scale(-1, 1);
         }
 
@@ -206,9 +207,9 @@ img {
       }
       &.nextpostslink {
         padding-right: 33px;
-        margin-left: 30px;
+        margin-left: 20px;
         &::before {
-          right: 0;
+          right: -10px;
         }
         @include pc {
           &:hover {
@@ -545,6 +546,9 @@ img {
     &__service-safety{
       background: url(/images/service-safety/header_bg.jpg) center center / cover no-repeat;
     }
+    &__service-production{
+      background: url(/images/service-production/header_bg.jpg) center center / cover no-repeat;
+    }
     &__recruit-info{
       background: url(/images/recruit-info/header_bg.jpg) center center / cover no-repeat;
     }
@@ -613,6 +617,23 @@ img {
     top: 0;
     left: 0;
     z-index: 1;
+  }
+  &::after{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 80px;
+    background-color: #9fb2d4;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 2;
+    @include sp{
+      height: 60px;
+      top: -25px;
+    }
   }
   &__wrap{
     position: relative;
@@ -858,7 +879,7 @@ img {
   background: #fff;
   padding: 0 100px 115px 0;
   @include sp{
-    padding: 0 0 55px;
+    padding: 0 0 80px;
   }
   .interview_head{
     @include Noto_Serif(600);
@@ -917,6 +938,20 @@ img {
         margin: 25px 0 0;
         @include sp{
           margin: 55px 0 0;
+        }
+      }
+      .bg_wrap{
+        background-color: #eff0f2;
+        padding: 32px 40px 35px;
+        @include sp{
+          width: calc(100% - 40px);
+          padding: 25px 0 24px;
+        }
+        &.mt-80{
+          margin: 74px 0 0;
+          @include sp{
+            margin: 0 auto;
+          }
         }
       }
     }

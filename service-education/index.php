@@ -14,7 +14,7 @@
   <meta property="og:description" content="<?php echo DESCRIPTION ?>" />
   <meta property="og:url" content="<?php echo CANONICAL ?>" />
 
-  <title><?php echo SITE_NAME ?> | 大学教育関連</title>
+  <title>大学教育関連 | <?php echo SITE_NAME ?></title>
 
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_include.php"); ?>
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/ga.php"); ?>
@@ -66,7 +66,7 @@
           <div class="container">
             <div class="service__wrapper--row">
               <div class="service__wrapper--col service__wrapper--col__img1">
-                <img src="/images/service-education/img_1.jpg" class="sp" alt="主な事業">
+                <img src="/images/service-education/sp/img_1.jpg" class="sp" alt="主な事業">
               </div>
               <div class="service__wrapper--col">
                 <div class="service__wrapper--col__content">
@@ -101,7 +101,7 @@
           <div class="container">
             <div class="service__wrapper--row">
               <div class="service__wrapper--col service__wrapper--col__img1">
-                <img src="/images/service-education/img_2.jpg" class="sp" alt="開発実績">
+                <img src="/images/service-education/sp/img_2.jpg" class="sp" alt="開発実績">
               </div>
               <div class="service__wrapper--col">
                 <div class="service__wrapper--col__content">

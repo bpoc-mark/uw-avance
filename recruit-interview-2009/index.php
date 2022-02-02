@@ -14,14 +14,14 @@
   <meta property="og:description" content="<?php echo DESCRIPTION ?>" />
   <meta property="og:url" content="<?php echo CANONICAL ?>" />
 
-  <title><?php echo SITE_NAME ?> | 人への想い</title>
+  <title>先輩インタビュー2009年入社Oさん | <?php echo SITE_NAME ?></title>
 
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_include.php"); ?>
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/ga.php"); ?>
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/header_tag.php"); ?>
 </head>
 
-<body id="Recruit-Interview-2009" class="">
+<body id="Recruit-Interview" class="">
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/content_tag.php"); ?>
   <div id="AllBox">
     <header>
@@ -55,10 +55,10 @@
          <div class="content">
             <ul class="page-menu--list">
               <li class="page-menu--item">
-                <a href="" class="page-menu--link">採用情報</a>
+                <a href="/recruit-info/" class="page-menu--link">採用情報</a>
               </li>
               <li class="page-menu--item">
-                <a href="" class="page-menu--link">人への想い</a>
+                <a href="/recruit-people/" class="page-menu--link">人への想い</a>
               </li>
               <li class="page-menu--item">
                 <a href="" class="page-menu--link">仕事案内</a>
@@ -70,7 +70,7 @@
                 <a href="" class="page-menu--link">募集要項</a>
               </li>
               <li class="page-menu--item">
-                <a href="" class="page-menu--link">エントリーフォーム</a>
+                <a href="/contact/" class="page-menu--link">エントリーフォーム</a>
               </li>
             </ul>
             <ul class="page-menu--list">
@@ -78,16 +78,16 @@
                 <span class="page-menu--link page-menu--link--lbl">先輩インタビュー</span>
               </li>
               <li class="page-menu--item"> 
-                <a href="" class="page-menu--link page-menu--link__active">2009年入社Oさん</a>
+                <a href="/recruit-interview-2009/" class="page-menu--link page-menu--link__active">2009年入社Oさん</a>
               </li>
               <li class="page-menu--item">
-                <a href="" class="page-menu--link">2013年入社Hさん</a>
+                <a href="/recruit-interview-2013/" class="page-menu--link">2013年入社Hさん</a>
               </li>
               <li class="page-menu--item">
-                <a href="" class="page-menu--link">2015年入社Nさん</a>
+                <a href="/recruit-interview-2015/" class="page-menu--link">2015年入社Nさん</a>
               </li>
               <li class="page-menu--item">
-                <a href="" class="page-menu--link">2019年入社Aさん</a>
+                <a href="/recruit-interview-2019/" class="page-menu--link">2019年入社Aさん</a>
               </li>
             </ul>
          </div>
@@ -104,7 +104,10 @@
                     私は大学時代に多少のプログラミング経験があり、パソコンが好きでしたが、ITとは直接関係のない業界で働いていました。<br>
                     それでもIT業界に興味があったので、地元の静岡県西部で未経験者を育成してくれる会社を探し、アバンセシステムに入社しました。
                   </p>
-                  <img src="/images/recruit-interview-2009/img_1.jpg" alt="話題の技術でソフトを開発できる">
+                  <picture >
+                    <source srcset="/images/recruit-interview-2009/sp/img_1.jpg" media="(max-width: 899px)">
+                    <img src="/images/recruit-interview-2009/img_1.jpg" alt="話題の技術でソフトを開発できる" class="">
+                  </picture>
                 </li>
                 <li class="item">
                   <h3 class="ttl">Windowsソフトを経験後、スマホアプリ開発へ</h3>
@@ -135,7 +138,10 @@
                     次に、ご提案の内容をアプリの仕様として落とし込むのですが、この要件定義・仕様検討がアプリ開発で最も重要です。
                     お客様のお考えをしっかりと確認しながら、漏れがないように詰めていきます。
                   </p>
-                  <img src="/images/recruit-interview-2009/img_2.jpg" alt="アプリ開発は要件定義・仕様検討がポイント">
+                  <picture >
+                    <source srcset="/images/recruit-interview-2009/sp/img_2.jpg" media="(max-width: 899px)">
+                    <img src="/images/recruit-interview-2009/img_2.jpg" alt="アプリ開発は要件定義・仕様検討がポイント" class="">
+                  </picture>
                 </li>
                 <li class="item">
                   <h3 class="ttl">
@@ -165,6 +171,18 @@
                     その他にも新しい技術が次々と出てくるので、自分のアンテナを高く張って情報収集に努めています。<br>
                     新しい言語の習得や、新しい開発環境・ツールの活用に挑戦し、エンジニアとしてのスキルを磨き続けたいですね。
                   </p>
+                </li>
+                <li class="item">
+                  <div class="bg_wrap mt-80">
+                    <h3 class="ttl">私の1日</h3>
+                    <p class="desc">
+                      私はテレワークを選択しているため、会社に出勤するのは週3日程度です。<br>
+                      出社する日も、自宅で働く日も、朝にやることは同じ。<br>
+                      その日にやるべきことをまとめたToDoリストをつくります。<br>
+                      その後はリストに従って、優先度順に仕事を進めるようにしています。<br>
+                      残業時間は業務の状況によって変わり、ほとんどゼロの期間もあれば、1日1～2時間ということもあります。
+                    </p>
+                  </div>
                 </li>
               </ul>
             </div>

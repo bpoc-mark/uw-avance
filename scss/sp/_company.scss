@@ -4,6 +4,11 @@
 ==================================*/
 #Company main {
   background-color: #eff0f2;
+  .p-header01{
+    &--jp{
+      margin: 16px 0 0 ;
+    }
+  }
   .sect_1{
     .wrapper{
       position: relative;

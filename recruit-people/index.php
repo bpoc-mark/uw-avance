@@ -14,7 +14,7 @@
   <meta property="og:description" content="<?php echo DESCRIPTION ?>" />
   <meta property="og:url" content="<?php echo CANONICAL ?>" />
 
-  <title><?php echo SITE_NAME ?> | 人への想い</title>
+  <title>人への想い | <?php echo SITE_NAME ?></title>
 
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_include.php"); ?>
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/ga.php"); ?>
@@ -24,7 +24,7 @@
 <body id="Recruit-People">
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/content_tag.php"); ?>
   <div id="AllBox">
-    <header>
+    <header>  
       <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_box.php"); ?>
     </header>
 
@@ -55,10 +55,10 @@
          <div class="content">
             <ul class="page-menu--list">
               <li class="page-menu--item">
-                <a href="" class="page-menu--link">採用情報</a>
+                <a href="/recruit-info/" class="page-menu--link">採用情報</a>
               </li>
               <li class="page-menu--item">
-                <a href="" class="page-menu--link page-menu--link__active">人への想い</a>
+                <a href="/recruit-people/" class="page-menu--link page-menu--link__active">人への想い</a>
               </li>
               <li class="page-menu--item">
                 <a href="" class="page-menu--link">仕事案内</a>
@@ -70,7 +70,7 @@
                 <a href="" class="page-menu--link">募集要項</a>
               </li>
               <li class="page-menu--item">
-                <a href="" class="page-menu--link">エントリーフォーム</a>
+                <a href="/contact/" class="page-menu--link">エントリーフォーム</a>
               </li>
             </ul>
             <ul class="page-menu--list">
