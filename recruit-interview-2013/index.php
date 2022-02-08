@@ -61,10 +61,10 @@
                 <a href="/recruit-people/" class="page-menu--link">人への想い</a>
               </li>
               <li class="page-menu--item">
-                <a href="" class="page-menu--link">仕事案内</a>
+                <a href="/history/" class="page-menu--link">仕事案内</a>
               </li>
               <li class="page-menu--item">
-                <a href="" class="page-menu--link">会社見学</a>
+                <a href="/company/" class="page-menu--link">会社見学</a>
               </li>
               <li class="page-menu--item">
                 <a href="" class="page-menu--link">募集要項</a>

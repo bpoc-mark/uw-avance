@@ -137,7 +137,7 @@ header {
           }
         }
         &--link{
-          @include Noto_Serif(600);
+          // @include Noto_Serif(600);
           color: #060930;
           &.isActive{
             &::before{
@@ -210,11 +210,11 @@ header {
           &:hover{
             justify-content: flex-end;
             a{
-              width: 150px;
-              height: 40px;
+              // width: 150px;
+              // height: 40px;
               background-color: #3d5ba8;
               color: #fff;
-              @include Noto_Serif(600);
+              // @include Noto_Serif(600);
             }
           }
           a{

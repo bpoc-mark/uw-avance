@@ -226,7 +226,7 @@
                   <div class="history--item__right">
                     <div class="date_cont">
                       <span class="date">2月</span>
-                      <p class="info">静岡大学・静岡県立大学共同開発<br><a href="">安否確認システム「ANPIC」リリース</a></p>
+                      <p class="info">静岡大学・静岡県立大学共同開発<br><a href="https://www.anpic.jp/" target="_blank">安否確認システム「ANPIC」リリース</a></p>
                     </div>
                   </div>
                 </li>
