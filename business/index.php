@@ -77,14 +77,14 @@
         <div class="wrapper">
           <div class="container">
             <div class="content">
-              <h2 class="ttl">通信、楽器、輸送用機器をはじめ幅広い業界の <br>ソフトウェアニーズに対応</h2>
+              <h2 class="ttl">車載関連、IoT関連、生産管理関連、大学教育関連をはじめ<br>幅広い業界のソフトウェアニーズに対応</h2>
               <p>
-                当社の事業内容はアプリケーションソフト、ミドルウェア、ファームウェア（組み込み）の3領域にわたり、<br>
-                幅広い業界のソフトウェア開発のニーズにお応えしています。<br>
-                これまでに楽器分野、光技術分野、通信分野、輸送用機器分野などで数々の実績を重ね、お客様の製品開発をバックアップしてまいりました。<br>
-                <br>
-                私たちの願いは、お客様の商品開発に付加価値を提供するパートナーであり続けることです。<br>
-                そのためにコア技術（アプリケーション、組み込み）を磨き上げ、永遠の未完を目指します。
+              当社の事業内容はアプリケーションソフト、ミドルウェア、ファームウェア（組み込み）の3領域にわたり、<br class="pc">
+              幅広い業界のソフトウェア開発のニーズにお応えしています。<br>
+              これまでに車載関連、IoT関連、生産管理関連、大学教育関連などで数々の実績を重ね、お客様の製品開発をバックアップしてまいりました。<br>
+              <br>
+              私たちの願いは、お客様の商品開発に付加価値を提供するパートナーであり続けることです。<br>
+              そのためにコア技術（アプリケーション、組み込み）を磨き上げ、永遠の未完を目指します。
               </p>
             </div>
           </div>
@@ -103,7 +103,7 @@
                   </p>
                 </div>
                 <div class="col">
-                  <img src="/images/business/img_1.png" alt="">
+                  <img src="/images/business/img_1.svg" alt="サービスフィールド">
                 </div>
               </div>
             </div>
@@ -113,221 +113,96 @@
       <section class="sect_3">
         <div class="wrapper">
           <div class="container">
-            <div class="content">
-              <ul class="wrap">
-                <li class="wrap--item">
-                  <h3 class="wrap--ttl">マルチメディア関連の開発実績</h3>
-                  <div class="software">
-                    <ul class="software__list software__list--col2">
-                      <li class="software__item">
-                        <p class="software__item--txt">iPod TouchR/iPhoneR/iPadRアプリケーション開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">Android ドライバ・アプリケーション開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">MATLAB®/Simulink® モデル変換対応</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">クラウド デジタルサイネージソリューション</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">VST 2.x系 Host/各種Plug-in、VST 3.x系 各種Plug-in開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">グラフィック系オーサリングツール開発／評価</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">グラフィック系ドライバソフトウェア開発／評価</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">音源デバイス（DSPなど）のソフトウェア開発／評価</p>
-                      </li>
-                    </ul>
-                    <ul class="software__list software__list--col2">
-                      <li class="software__item">
-                        <p class="software__item--txt">多演奏楽器 ソフトウェア開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">自動演奏楽器 ファームウェア・ソフトウェア開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">電子楽器向けLinuxUIライブラリ開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">カラオケ通信ボード制御ファームウェア開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">音声認識アプリケーション開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">タッチパネルドライバ開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">各種チップ・ボードの評価ソフトウェア開発・テスト</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">アプリケーションのシステムテスト</p>
-                      </li>
-                    </ul>
+            <div class="row">
+              <div class="col c-anim-up">
+                <div class="c-header01">
+                  <h3 class="c-header01__en">Service</h3>
+                  <p class="c-header01__jp">サービス紹介</p>
+                </div>
+                <p class="desc">
+                  サービスを包括したテキストを入れたいです。<br class="pc">
+                  サービスを包括したテキストを入れたいですサービスを包括したテキストを入れたいですサービスを包括したテキストを入れたいです。
+                </p>
+              </div>
+              <div class="col c-anim-up">
+                <a href="/service/">
+                  <div class="card">
+                    <picture >
+                      <source srcset="/images/top/sect_2/sp/img1.jpg" media="(max-width: 899px)">
+                      <img src="/images/top/sect_2/img1.jpg" alt="車載関連" class="">
+                    </picture>
+                    <div class="card--content">
+                      <span class="card--content__num">01.</span>
+                      <h3 class="card--content__title">車載関連</h3>
+                      <p class="card--content__desc">車載ソフトウェア開発のご要望に豊富な実績とノウハウでお応えし</p>
+                    </div>
                   </div>
-                </li>
-                <li class="wrap--item">
-                  <h3 class="wrap--ttl">運送用機器・工場・組織関連の開発実績</h3>
-                  <div class="software">
-                    <ul class="software__list software__list--col2">
-                      <li class="software__item">
-                        <p class="software__item--txt">テレマティクスシステムの開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">安否情報システム開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">スマートグリッドシステムの開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">工場ライン用集計システム開発・導入</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">工場入退門の管理システム開発・導入</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">CANモニターソフトウェア開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">エンジンコントローラーユニット(ECU)開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">車載ECU制御ソフトウェア開発</p>
-                      </li>
-                    </ul>
-                    <ul class="software__list software__list--col2">
-                      <li class="software__item">
-                        <p class="software__item--txt">車載ECU制御モデル開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">車載ECU監視ソフトウェア開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">ハイブリッド用バッテリー・ECUの検査装置開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">ECUデータの高速ロガーソフトウェア開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">ECU用ロガーソフトウェア開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">ECU用ポータブルロギングシステム開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">各種治具作成</p>
-                      </li>
-                    </ul>
+                </a>
+              </div>
+              <div class="col c-anim-up">
+                <a href="/service-iot/">
+                  <div class="card">
+                    <picture >
+                      <source srcset="/images/top/sect_2/sp/img2.jpg" media="(max-width: 899px)">
+                      <img src="/images/top/sect_2/img2.jpg" alt="IoT関連" class="">
+                    </picture>
+                    <div class="card--content">
+                      <span class="card--content__num">02.</span>
+                      <h3 class="card--content__title">IoT関連</h3>
+                      <p class="card--content__desc">テキストが入りますテキストが入りますテキストが入ります。</p>
+                    </div>
                   </div>
-                </li>
-                <li class="wrap--item">
-                  <h3 class="wrap--ttl">光・医療・I/F関連の開発実績</h3>
-                  <div class="software">
-                    <ul class="software__list software__list--col2">
-                      <li class="software__item">
-                        <p class="software__item--txt">USBを使用したH/W－PC通信モジュールの開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">血液成分分析システムのソフトウェア開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">医療画像解析システムのソフトウェア開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">プラズマモニタの制御ファームウェア・ソフトウェア開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">分光器制御用ファームウェア・ソフトウェア開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">iOS・Android機器情報表示アプリケーション開発</p>
-                      </li>
-                    </ul>
-                    <ul class="software__list software__list--col2">
-                      <li class="software__item">
-                        <p class="software__item--txt">IEEE1394を使用した制御ソフト開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">NI社製DIOを使用した制御ソフトウェア開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">RS-232Cを使用したデバイス制御開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">GPIBを使用した制御ソフトウェア開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">各種ファイルシステムを使用した開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">各種装置の制御ライブラリ・サンプルソフトウェア作成</p>
-                      </li>
-                    </ul>
+                </a>
+              </div>
+              <div class="col c-anim-up">
+                <a href="/service-production/">
+                  <div class="card">
+                    <picture >
+                      <source srcset="/images/top/sect_2/sp/img3.jpg" media="(max-width: 899px)">
+                      <img src="/images/top/sect_2/img3.jpg" alt="生産関連" class="">
+                    </picture>
+                    <div class="card--content">
+                      <span class="card--content__num">03.</span>
+                      <h3 class="card--content__title">生産関連</h3>
+                      <p class="card--content__desc">テキストが入りますテキストが入りますテキストが入ります。</p>
+                    </div>
                   </div>
-                </li>
-                <li class="wrap--item">
-                  <h3 class="wrap--ttl">通信関連の開発実績</h3>
-                  <div class="software">
-                    <ul class="software__list software__list--col2">
-                      <li class="software__item">
-                        <p class="software__item--txt">仮想クラウドサーバ提供</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">無線LANを使用したデータ送信機器開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">DLNAを使用したホームネットワーク要素開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">組み込み用 VNC クライアントモジュール開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">UPnPを使用した要素開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">SIP、HTTP、TCP/IP、SSLのポーティング</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">RTPを使用したソフトウェア開発</p>
-                      </li>
-                    </ul>
-                    <ul class="software__list software__list--col2">
-                      <li class="software__item">
-                        <p class="software__item--txt">IP電話通信制御ソフトウェア開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">ルータ系のブートプログラム開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">ルータ系のテスト/ダイアグプログラム開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">ネットワーク制御チップのマイクロコード作成</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">ネットワーク会議システム ファームウェア開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">次世代Switching Hubの要素開発</p>
-                      </li>
-                      <li class="software__item">
-                        <p class="software__item--txt">Telnet・FTP サーバー/クライアント開発</p>
-                      </li>
-                    </ul>
+                </a>
+              </div>
+              <div class="col c-anim-up">
+                <a href="/service-education/">
+                  <div class="card">
+                    <picture >
+                      <source srcset="/images/top/sect_2/sp/img4.jpg" media="(max-width: 899px)">
+                      <img src="/images/top/sect_2/img4.jpg" alt="大学教育関連" class="">
+                    </picture>
+                    <div class="card--content">
+                      <span class="card--content__num">04.</span>
+                      <h3 class="card--content__title">大学教育関連</h3>
+                      <p class="card--content__desc">テキストが入りますテキストが入りますテキストが入ります。</p>
+                    </div>
                   </div>
-                </li>
-              </ul>
+                </a>
+              </div>
+              <div class="col c-anim-up">
+                <a href="/service-safety/">
+                  <div class="card">
+                    <picture >
+                      <source srcset="/images/top/sect_2/sp/img5.jpg" media="(max-width: 899px)">
+                      <img src="/images/top/sect_2/img5.jpg" alt="安否確認システム" class="">
+                    </picture>
+                    <div class="card--content">
+                      <span class="card--content__num">05.</span>
+                      <h3 class="card--content__title">安否確認システム</h3>
+                      <p class="card--content__desc">テキストが入りますテキストが入りますテキストが入ります。</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/card-footer.php"); ?>
     </main>
 
     <footer>
