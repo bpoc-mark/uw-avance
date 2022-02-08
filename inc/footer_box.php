@@ -11,19 +11,19 @@
 					<a href="/" class="nav--link">事業内容</a>
 					<ul class="nav--item__submenu">
 						<li class="nav--item__submenu--item">
-							<a href="" class="nav--item__submenu--link">車載関連</a>
+							<a href="/service/" class="nav--item__submenu--link">車載関連</a>
 						</li>
 						<li class="nav--item__submenu--item">
-							<a href="" class="nav--item__submenu--link">IoT関連</a>
+							<a href="/service-iot/" class="nav--item__submenu--link">IoT関連</a>
 						</li>
 						<li class="nav--item__submenu--item">
-							<a href="" class="nav--item__submenu--link">生産管理</a>
+							<a href="/service-production/" class="nav--item__submenu--link">生産管理</a>
 						</li>
 						<li class="nav--item__submenu--item">
-							<a href="" class="nav--item__submenu--link">大学教育関連</a>
+							<a href="/service-education/" class="nav--item__submenu--link">大学教育関連</a>
 						</li>
 						<li class="nav--item__submenu--item">
-							<a href="" class="nav--item__submenu--link">安否確認</a>
+							<a href="/service-safety/" class="nav--item__submenu--link">安否確認</a>
 						</li>
 					</ul>
 				</li>
@@ -31,16 +31,16 @@
 					<a href="/" class="nav--link">会社案内</a>
 					<ul class="nav--item__submenu">
 						<li class="nav--item__submenu--item">
-							<a href="" class="nav--item__submenu--link">トップメッセージ</a>
+							<a href="/message/" class="nav--item__submenu--link">トップメッセージ</a>
 						</li>
 						<li class="nav--item__submenu--item">
-							<a href="" class="nav--item__submenu--link">事業内容</a>
+							<a href="/business/" class="nav--item__submenu--link">事業内容</a>
 						</li>
 						<li class="nav--item__submenu--item">
-							<a href="" class="nav--item__submenu--link">開発環境実績</a>
+							<a href="/development/" class="nav--item__submenu--link">開発環境実績</a>
 						</li>
 						<li class="nav--item__submenu--item">
-							<a href="" class="nav--item__submenu--link">沿革</a>
+							<a href="/history/" class="nav--item__submenu--link">沿革</a>
 						</li>
 					</ul>
 				</li>
@@ -49,36 +49,36 @@
 					<nav class="submenu-wrap">
 						<ul class="nav--item__submenu">
 							<li class="nav--item__submenu--item">
-								<a href="" class="nav--item__submenu--link">人への想い</a>
+								<a href="/recruit-people/" class="nav--item__submenu--link">人への想い</a>
 							</li>
 							<li class="nav--item__submenu--item">
-								<a href="" class="nav--item__submenu--link">仕事案内</a>
+								<a href="/history/" class="nav--item__submenu--link">仕事案内</a>
 							</li>
 							<li class="nav--item__submenu--item">
-								<a href="" class="nav--item__submenu--link">会社見学</a>
+								<a href="/company/" class="nav--item__submenu--link">会社見学</a>
 							</li>
 							<li class="nav--item__submenu--item">
 								<a href="" class="nav--item__submenu--link">募集要項</a>
 							</li>
 							<li class="nav--item__submenu--item">
-								<a href="" class="nav--item__submenu--link">エントリーフォーム</a>
+								<a href="/contact/" class="nav--item__submenu--link">エントリーフォーム</a>
 							</li>
 						</ul>
 						<ul class="nav--item__submenu">
 							<li class="nav--item__submenu--item">
-								<a href="" class="nav--item__submenu--link">先輩インタビュー</a>
+								<a href="/recruit-info/" class="nav--item__submenu--link">先輩インタビュー</a>
 							</li>
 							<li class="nav--item__submenu--item">
-								<a href="" class="nav--item__submenu--link">入社3年目 ○○事業部</a>
+								<a href="/recruit-interview-2009/" class="nav--item__submenu--link">2009年入社Oさん</a>
 							</li>
 							<li class="nav--item__submenu--item">
-								<a href="" class="nav--item__submenu--link">入社3年目 ○○事業部</a>
+								<a href="/recruit-interview-2013/" class="nav--item__submenu--link">2013年入社Hさん</a>
 							</li>
 							<li class="nav--item__submenu--item">
-								<a href="" class="nav--item__submenu--link">入社3年目 ○○事業部</a>
+								<a href="/recruit-interview-2015/" class="nav--item__submenu--link">2015年入社Nさん</a>
 							</li>
 							<li class="nav--item__submenu--item">
-								<a href="" class="nav--item__submenu--link">入社3年目 ○○事業部</a>
+								<a href="/recruit-interview-2019/" class="nav--item__submenu--link">2019年入社Aさん</a>
 							</li>
 						</ul>
 					</nav>
@@ -87,10 +87,10 @@
 					<a href="/" class="nav--link">アバンセラボ</a>
 				</li>
 				<li class="nav--item">
-					<a href="/" class="nav--link">新着情報</a>
+					<a href="/news-detail/" class="nav--link">新着情報</a>
 				</li>
 				<li class="nav--item">
-					<a href="/" class="nav--link">お問い合わせ</a>
+					<a href="/contact/" class="nav--link">お問い合わせ</a>
 				</li>
 				<li class="nav--item">
 					<a href="/" class="nav--link">プライバシーポリシー</a>

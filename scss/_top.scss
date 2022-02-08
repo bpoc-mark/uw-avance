@@ -400,7 +400,7 @@
                 opacity: 0;
               }
               .news__content--title{
-                @include Noto_Serif(600);
+                // @include Noto_Serif(600);
                 color: #3d5ba8;
                 text-decoration: underline;
                 text-underline-offset: 5px;

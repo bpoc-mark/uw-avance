@@ -55,7 +55,7 @@
 									</p>
 								</div>
 								<div class="col c-anim-up">
-									<a href="">
+									<a href="/service/">
 										<div class="card">
 											<picture >
 												<source srcset="/images/top/sect_2/sp/img1.jpg" media="(max-width: 899px)">
@@ -70,7 +70,7 @@
 									</a>
 								</div>
 								<div class="col c-anim-up">
-									<a href="">
+									<a href="/service-iot/">
 										<div class="card">
 											<picture >
 												<source srcset="/images/top/sect_2/sp/img2.jpg" media="(max-width: 899px)">
@@ -85,7 +85,7 @@
 									</a>
 								</div>
 								<div class="col c-anim-up">
-									<a href="">
+									<a href="/service-production/">
 										<div class="card">
 											<picture >
 												<source srcset="/images/top/sect_2/sp/img3.jpg" media="(max-width: 899px)">
@@ -100,7 +100,7 @@
 									</a>
 								</div>
 								<div class="col c-anim-up">
-									<a href="">
+									<a href="/service-education/">
 										<div class="card">
 											<picture >
 												<source srcset="/images/top/sect_2/sp/img4.jpg" media="(max-width: 899px)">
@@ -115,7 +115,7 @@
 									</a>
 								</div>
 								<div class="col c-anim-up">
-									<a href="">
+									<a href="/service-safety/">
 										<div class="card">
 											<picture >
 												<source srcset="/images/top/sect_2/sp/img5.jpg" media="(max-width: 899px)">
@@ -154,7 +154,7 @@
 									テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。<br>
 									テキストが入りますテキストが入りますテキストが入りますテキスト。<br>
 									</p>
-									<a href="" class="c-button01 c-button01--primary c-button01--lg"><span class="c-button01--text">会社案内</span></a>
+									<a href="/company/" class="c-button01 c-button01--primary c-button01--lg"><span class="c-button01--text">会社案内</span></a>
 								</div>
 							</div>
 						</div>
@@ -178,7 +178,7 @@
 								テキストが入りますテキストが入りますテキスト<br class="pc">
 								テキストが入りますテキストが入りますテキストが入りますテキスト。
 								</p>
-								<a href="" class="c-button01 c-button01--secondary c-button01--lg"><span class="c-button01--text">採用情報</span></a>
+								<a href="/recruit-info/" class="c-button01 c-button01--secondary c-button01--lg"><span class="c-button01--text">採用情報</span></a>
 							</div>
 						</div>
 					</div>
@@ -190,7 +190,7 @@
 						<div class="bg_cont">
 							<div class="bg_cont--content">
 								<h3 class="bg_cont--content__title c-anim-up">向上心を持って、一流のSEとして<br>私たちと共に働きませんか？</h3>
-								<a href="" class="c-button01 c-button01--secondary c-button01--lg"><span class="c-button01--text">採用情報</span></a>
+								<a href="/recruit-info/" class="c-button01 c-button01--secondary c-button01--lg"><span class="c-button01--text">採用情報</span></a>
 							</div>
 						</div>
 					</div>
@@ -249,7 +249,7 @@
 								</a>
 							</li>
 						</ul>
-						<a href="" class="c-button01 c-button01--primary c-button01--sm"><span class="c-button01--text">一覧</span></a>
+						<a href="/news/" class="c-button01 c-button01--primary c-button01--sm"><span class="c-button01--text">一覧</span></a>
 					</div>
 				</div>
 			</section>

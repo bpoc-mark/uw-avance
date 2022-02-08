@@ -339,7 +339,7 @@ img {
     margin: 40px auto 0;
   }
   &:hover{
-    @include Noto_Serif(600);
+    // @include Noto_Serif(600);
   }
   &--primary{
     position: relative;
