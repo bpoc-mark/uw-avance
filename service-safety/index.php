@@ -60,7 +60,9 @@
               その家族の安否確認や各事務所・営業所の被災確認の初動を速やかに把握できる災害対策支援サービスです。
             </p>
             <div class="img_wrap">
-              <img src="/images/service-safety/img_1.png" alt="ユーザー数50万人以上！低コストで“もしも”にそなえる安否確認システムANPIC">
+              <a href="https://www.anpic.jp/" target="_blank">
+                <img src="/images/service-safety/img_1.png" alt="ユーザー数50万人以上！低コストで“もしも”にそなえる安否確認システムANPIC">
+              </a>
             </div>
           </div>
         </div>

@@ -43,6 +43,16 @@
         .img_wrap{
           max-width: 637px;
           margin: 25px auto 0;
+          a{
+            &:hover{
+              img{
+                opacity: .7;
+              }
+            }
+            img{
+              transition: .3s ease-in-out;
+            }
+          }
         }
       }
     }

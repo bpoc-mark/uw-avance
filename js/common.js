@@ -61,11 +61,15 @@ const spinner = document.querySelector('#loading');
 const header = document.querySelector('header');
 window.addEventListener('load', function() {
   spinner.classList.add('loaded');
-  header.classList.add('isLoaded');
+  if(window.location.pathname == '/'){
+    header.classList.add('isLoaded');
+  }
 });
 setTimeout( function () {
   spinner.classList.add('loaded');
-  header.classList.add('isLoaded');
+  if(window.location.pathname == '/'){
+    header.classList.add('isLoaded');
+  }
 }, 2000);
 
 
