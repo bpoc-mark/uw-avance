@@ -1,0 +1,78 @@
+@use "sass:math";
+/*==================================
+  Privacy-Policy
+==================================*/
+#Privacy-Policy main {
+  background-color: #eff0f2;
+  .p-header01{
+    &--jp{
+      margin: 15px 0 0;
+    }
+  }
+  .privacy-policy-section{
+    padding: 0 0 80px;
+    .wrapper{
+      position: relative;
+      background-color: #fff;
+      .container{
+        position: relative;
+        z-index: 2;
+        .content{
+          background-color: #fff;
+          padding: 0 0 60px 0;
+          .privacy{
+            &--list{
+              &:not(:last-child){
+                margin: 0 0 30px;
+              }
+              .ttl{
+                @include Noto_Serif(600);
+                font-size: 20px;
+                letter-spacing: .1em;
+                line-height: 30px;
+                color: #000;
+                margin: 0 0 10px;
+                text-align: justify;
+              }
+              .desc{
+                letter-spacing: .02em;
+                line-height: 25.6px;
+                text-align: justify;
+              }
+              .decimal-list{
+                padding: 0 0 0 30px;
+                margin: 10px 0 0;
+                &--nostyle{
+                  padding: 0;
+                  .decimal-list--item{
+                    list-style: none;
+                    .decimal-list--txt{
+                      text-indent: -21px;
+                      margin: 0 0 0 21px;
+                    }
+                  }
+                }
+                &--item{
+                  list-style: decimal;
+                  margin: 0 0 5px;
+                }
+                &--txt{
+                  letter-spacing: .02em;
+                  line-height: 25.6px;
+                  text-align: justify;
+                  a{
+                    color: #474747;
+                    &.a-clr1{
+                     color: #00e; 
+                     text-decoration: underline;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
