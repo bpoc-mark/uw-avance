@@ -18,13 +18,13 @@ $str = explode('/', $url); ?>
 			<li class="nav--item"><a href="/" class="nav--link <?php if ($str[1] == "") {
 												echo 'isActive';
 											} ?>">HOME</a></li>
-			<li class="nav--item"><a href="/business/" class="nav--link <?php if ($str[1] == "business") {
+			<li class="nav--item"><a href="/service/" class="nav--link <?php if ($str[1] == "service") {
 												echo 'isActive';
 											} ?>" >事業内容</a></li>
-			<li class="nav--item"><a href="/company/" class="nav--link <?php if ($str[1] == "company") {
+			<li class="nav--item"><a href="/company/" class="nav--link <?php if ($str[1] == "company") {	
 												echo 'isActive';
 											} ?>" >会社案内</a></li>
-			<li class="nav--item"><a href="/service/" class="nav--link <?php if ($str[1] == "service") {
+			<li class="nav--item"><a href="/business/" class="nav--link <?php if ($str[1] == "business") {
 												echo 'isActive';
 											} ?>" >アバンセラボ</a></li>
 			<li class="nav--item"><a href="/recruit-info/" class="nav--link <?php if ($str[1] == "recruit-info") {

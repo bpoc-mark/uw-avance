@@ -61,13 +61,7 @@
                 <a href="/recruit-people/" class="page-menu--link">人への想い</a>
               </li>
               <li class="page-menu--item">
-                <a href="/history/" class="page-menu--link">仕事案内</a>
-              </li>
-              <li class="page-menu--item">
-                <a href="/company/" class="page-menu--link">会社見学</a>
-              </li>
-              <li class="page-menu--item">
-                <a href="" class="page-menu--link">募集要項</a>
+                <a href="/business/" class="page-menu--link">募集要項</a>
               </li>
               <li class="page-menu--item">
                 <a href="/contact/" class="page-menu--link">エントリーフォーム</a>
@@ -78,16 +72,16 @@
                 <span class="page-menu--link page-menu--link--lbl">先輩インタビュー</span>
               </li>
               <li class="page-menu--item"> 
-                <a href="/recruit-interview-2009/" class="page-menu--link page-menu--link__active">2009年入社Oさん</a>
+                <span class="page-menu--link page-menu--link__active">2009年入社Oさん</span>
               </li>
               <li class="page-menu--item">
-                <a href="/recruit-interview-2013/" class="page-menu--link">2013年入社Hさん</a>
+                <span class="page-menu--link">2013年入社Hさん</span>
               </li>
               <li class="page-menu--item">
-                <a href="/recruit-interview-2015/" class="page-menu--link">2015年入社Nさん</a>
+                <span class="page-menu--link">2015年入社Nさん</span>
               </li>
               <li class="page-menu--item">
-                <a href="/recruit-interview-2019/" class="page-menu--link">2019年入社Aさん</a>
+                <span class="page-menu--link">2019年入社Aさん</span>
               </li>
             </ul>
          </div>
