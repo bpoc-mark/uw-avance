@@ -52,13 +52,7 @@
 								<a href="/recruit-people/" class="nav--item__submenu--link">人への想い</a>
 							</li>
 							<li class="nav--item__submenu--item">
-								<a href="/history/" class="nav--item__submenu--link">仕事案内</a>
-							</li>
-							<li class="nav--item__submenu--item">
-								<a href="/company/" class="nav--item__submenu--link">会社見学</a>
-							</li>
-							<li class="nav--item__submenu--item">
-								<a href="" class="nav--item__submenu--link">募集要項</a>
+								<a href="/application-requirements/" class="nav--item__submenu--link">募集要項</a>
 							</li>
 							<li class="nav--item__submenu--item">
 								<a href="/recruitment-form/" class="nav--item__submenu--link">エントリーフォーム</a>
