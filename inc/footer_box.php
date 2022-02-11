@@ -61,7 +61,7 @@
 								<a href="" class="nav--item__submenu--link">募集要項</a>
 							</li>
 							<li class="nav--item__submenu--item">
-								<a href="/contact/" class="nav--item__submenu--link">エントリーフォーム</a>
+								<a href="/recruitment-form/" class="nav--item__submenu--link">エントリーフォーム</a>
 							</li>
 						</ul>
 						<ul class="nav--item__submenu">
@@ -93,7 +93,7 @@
 					<a href="/contact/" class="nav--link">お問い合わせ</a>
 				</li>
 				<li class="nav--item">
-					<a href="/" class="nav--link">プライバシーポリシー</a>
+					<a href="/privacy-policy/" class="nav--link">プライバシーポリシー</a>
 				</li>
 			</ul>
 		</nav>
@@ -118,7 +118,7 @@
 					<figure>
 						<img src="/images/common/footer_img_1.png" alt="情報セキュリティ基本方針">
 					</figure>
-					<a href="">情報セキュリティ基本方針 </a>
+					<a href="/information-security/">情報セキュリティ基本方針 </a>
 				</div>
 			</div>
 		</div>

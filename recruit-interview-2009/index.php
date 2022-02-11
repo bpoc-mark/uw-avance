@@ -64,7 +64,7 @@
                 <a href="/business/" class="page-menu--link">募集要項</a>
               </li>
               <li class="page-menu--item">
-                <a href="/contact/" class="page-menu--link">エントリーフォーム</a>
+                <a href="/recruitment-form/" class="page-menu--link">エントリーフォーム</a>
               </li>
             </ul>
             <ul class="page-menu--list">
