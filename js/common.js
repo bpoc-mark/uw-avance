@@ -11,10 +11,9 @@ $(function () {
     };
   });
 
-  $('#menu-toggle').click(function () {
-    $('header').toggleClass('open');
+  $('#nav_menu').click(function () {
+    $('header').toggleClass('open-menu');
     $(this).find('.line').toggleClass('show');
-    $('header nav').slideToggle();
     $('html').toggleClass('no_move');
   });
 

@@ -61,7 +61,7 @@
                 <a href="/recruit-people/" class="page-menu--link">人への想い</a>
               </li>
               <li class="page-menu--item">
-                <a href="/business/" class="page-menu--link">募集要項</a>
+                <a href="/application-requirements/" class="page-menu--link">募集要項</a>
               </li>
               <li class="page-menu--item">
                 <a href="/recruitment-form/" class="page-menu--link">エントリーフォーム</a>
