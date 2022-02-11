@@ -70,7 +70,7 @@ main#Contact {
       th {
         color: #000;
         font-size: 16px;
-        line-height: 1;
+        line-height: 25px;
         letter-spacing: 0.1em;
         font-weight: 500;
         display: block;
@@ -83,6 +83,7 @@ main#Contact {
           padding-left: 1em;
           margin-top: 8px;
         }
+        
       }
 
       td {
@@ -90,6 +91,31 @@ main#Contact {
         width: 100%;
         .text02 {
           margin-top: 8px;
+        }
+        .birthdate{
+          display: flex;
+          justify-content: flex-start;
+          .year, .month, .day{
+            display: flex;
+            align-items: center;
+            span{
+              margin: 0 0 0 10px;
+            }
+          }
+          .year, .month{
+            margin: 0 10px 0 0;
+            width: 200px;
+          }
+          .day{
+            width: 100px;
+          }
+          select{
+            border: none;
+            outline: none;
+            background: #eff0f2;
+            width: 100%;
+            padding: 11px 10px;
+          }
         }
       }
     }

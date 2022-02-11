@@ -52,7 +52,7 @@ main#Contact {
       
       th {
         font-size: 18px;
-        line-height: 1;
+        line-height: 25px;
         letter-spacing: 0.1em;
         font-weight: 500;
         color: #000000;
@@ -70,6 +70,31 @@ main#Contact {
         width: calc(100% - 235px);
         .text02 {
           margin-top: 8px;
+        }
+        .birthdate{
+          display: flex;
+          justify-content: flex-start;
+          .year, .month, .day{
+            display: flex;
+            align-items: center;
+            span{
+              margin: 0 0 0 10px;
+            }
+          }
+          .year, .month{
+            margin: 0 30px 0 0;
+            width: 200px;
+          }
+          .day{
+            width: 100px;
+          }
+          select{
+            border: none;
+            outline: none;
+            background: #eff0f2;
+            width: 100%;
+            padding: 21px 21px;
+          }
         }
       }
     }
