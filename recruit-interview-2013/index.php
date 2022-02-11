@@ -32,7 +32,7 @@
       <section class="p-header01 p-header01--bg p-header01--bg__recruit-info">
         <div class="p-header01--cont">
           <h1 class="p-header01--en">Recruit</h1>
-          <p class="p-header01--jp p-header01--jp__interview">先輩インタビュー <br class="sp">2009年入社Oさん</p>
+          <p class="p-header01--jp p-header01--jp__interview">先輩インタビュー <br class="sp">2013年入社Hさん</p>
         </div>
       </section>
       <section class="c-breadcrumb">
@@ -45,7 +45,7 @@
               <a href="" class="c-breadcrumb__link">採用情報 </a>
             </li>
             <li class="c-breadcrumb__item">
-              <a href="" class="c-breadcrumb__link">先輩インタビュー 2009年入社Oさん</a>
+              <a href="" class="c-breadcrumb__link">先輩インタビュー 2013年入社Hさん</a>
             </li>
           </ul>
         </div>
