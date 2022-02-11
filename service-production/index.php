@@ -14,7 +14,7 @@
   <meta property="og:description" content="<?php echo DESCRIPTION ?>" />
   <meta property="og:url" content="<?php echo CANONICAL ?>" />
 
-  <title>生産管理 | <?php echo SITE_NAME ?></title>
+  <title>生産管理関連 | <?php echo SITE_NAME ?></title>
 
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_include.php"); ?>
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/ga.php"); ?>
@@ -32,7 +32,7 @@
       <section class="p-header01 p-header01--bg p-header01--bg__service-production">
         <div class="p-header01--cont">
           <h1 class="p-header01--en">Service</h1>
-          <p class="p-header01--jp"> 生産管理</p>
+          <p class="p-header01--jp"> 生産管理関連</p>
         </div>
       </section>
       <section class="c-breadcrumb">
@@ -42,7 +42,7 @@
               <a href="" class="c-breadcrumb__link">HOME</a>
             </li>
             <li class="c-breadcrumb__item">
-              <a href="" class="c-breadcrumb__link">事業内容 生産管理</a>
+              <a href="" class="c-breadcrumb__link">事業内容 生産管理関連</a>
             </li>
           </ul>
         </div>

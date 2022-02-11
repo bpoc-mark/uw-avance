@@ -17,7 +17,7 @@
 							<a href="/service-iot/" class="nav--item__submenu--link">IoT関連</a>
 						</li>
 						<li class="nav--item__submenu--item">
-							<a href="/service-production/" class="nav--item__submenu--link">生産管理</a>
+							<a href="/service-production/" class="nav--item__submenu--link">生産管理関連</a>
 						</li>
 						<li class="nav--item__submenu--item">
 							<a href="/service-education/" class="nav--item__submenu--link">大学教育関連</a>
