@@ -234,6 +234,7 @@ footer {
         display: flex;
         flex-wrap: wrap;
         &--item{
+          position: relative;
           width: 100%;
           border-bottom: 1px solid #3c4661;
           &:nth-child(1),&:nth-child(5),&:nth-child(6),&:nth-child(7),&:nth-child(8){
@@ -305,52 +306,60 @@ footer {
               letter-spacing: .06em;
             }
           }
+          .footer-drop-icon{
+            display: block;
+            width: 15px;
+            height: 15px;
+            position: absolute;
+            top: 18px;
+            right: 10px;
+            &.isActive{
+              &::before{
+                transform: rotate(90deg);
+                opacity: 0;
+              }
+              &::after{
+                transform: rotate(180deg);
+              }
+            }
+            &::before{
+              content: "";
+              display: block;
+              width: 15px;
+              height: 1px;
+              background-color: #fff;
+              border-top: unset;
+              border-right: unset;
+              position: absolute;
+              top: 7px;
+              right: 0;
+              transform: unset;
+              transition: .3s ease-in-out;
+            }
+            &::after{
+              content: "";
+              display: block;
+              width: 15px;
+              height: 1px;
+              background-color: #fff;
+              border-top: unset;
+              border-right: unset;
+              position: absolute;
+              top: 7px;
+              right: 0;
+              transform: rotate(90deg);
+              transition: .3s ease-in-out;
+            }
+          }
         }
         &--link{
           position: relative;
           font-size: 15px;
           color: #fff;
           letter-spacing: .06em;
-          display: block;
+          display: inline-block;
           width: 100%;
           padding: 14px 0 14px 0;
-          &.isActive{
-            &::before{
-              transform: rotate(90deg);
-              opacity: 0;
-            }
-            &::after{
-              transform: rotate(180deg);
-            }
-          }
-          &::before{
-            content: "";
-            display: block;
-            width: 15px;
-            height: 1px;
-            background-color: #fff;
-            border-top: unset;
-            border-right: unset;
-            position: absolute;
-            top: 23px;
-            right: 10px;
-            transform: unset;
-            transition: .3s ease-in-out;
-          }
-          &::after{
-            content: "";
-            display: block;
-            width: 15px;
-            height: 1px;
-            background-color: #fff;
-            border-top: unset;
-            border-right: unset;
-            position: absolute;
-            top: 23px;
-            right: 10px;
-            transform: rotate(90deg);
-            transition: .3s ease-in-out;
-          }
         }
       }
     }

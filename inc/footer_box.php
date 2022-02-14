@@ -8,7 +8,8 @@
 					<a href="/" class="nav--link">HOME</a>
 				</li>
 				<li class="nav--item">
-					<a href="/" class="nav--link">事業内容</a>
+					<a href="/business/" class="nav--link">事業内容</a>
+					<span class="footer-drop-icon sp"></span>
 					<ul class="nav--item__submenu">
 						<li class="nav--item__submenu--item">
 							<a href="/service/" class="nav--item__submenu--link">車載ソリューション</a>
@@ -28,7 +29,8 @@
 					</ul>
 				</li>
 				<li class="nav--item">
-					<a href="/" class="nav--link">会社案内</a>
+					<a href="/company/" class="nav--link">会社案内</a>
+					<span class="footer-drop-icon sp"></span>
 					<ul class="nav--item__submenu">
 						<li class="nav--item__submenu--item">
 							<a href="/message/" class="nav--item__submenu--link">トップメッセージ</a>
@@ -45,7 +47,8 @@
 					</ul>
 				</li>
 				<li class="nav--item">
-					<a href="/" class="nav--link">採用情報</a>
+					<a href="/recruit-info/" class="nav--link">採用情報</a>
+					<span class="footer-drop-icon sp"></span>
 					<nav class="submenu-wrap">
 						<ul class="nav--item__submenu">
 							<li class="nav--item__submenu--item">
