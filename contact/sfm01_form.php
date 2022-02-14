@@ -38,10 +38,10 @@
 				<div class="container">
 					<ul class="c-breadcrumb__wrap pc">
 						<li class="c-breadcrumb__item">
-							<a href="" class="c-breadcrumb__link">HOME</a>
+							<a class="c-breadcrumb__link">HOME</a>
 						</li>
 						<li class="c-breadcrumb__item">
-							<a href="" class="  c-breadcrumb__link">お問い合わせ</a>
+							<a class="  c-breadcrumb__link">お問い合わせ</a>
 						</li>
 					</ul>
 				</div>

@@ -39,10 +39,10 @@
         <div class="container">
           <ul class="c-breadcrumb__wrap pc">
             <li class="c-breadcrumb__item">
-              <a href="" class="c-breadcrumb__link">HOME</a>
+              <a class="c-breadcrumb__link">HOME</a>
             </li>
             <li class="c-breadcrumb__item">
-              <a href="" class="c-breadcrumb__link">情報セキュリティ基本方針</a>
+              <a class="c-breadcrumb__link">情報セキュリティ基本方針</a>
             </li>
           </ul>
         </div>

@@ -39,13 +39,13 @@
         <div class="container">
           <ul class="c-breadcrumb__wrap pc">
             <li class="c-breadcrumb__item">
-              <a href="" class="c-breadcrumb__link">HOME</a>
+              <a class="c-breadcrumb__link">HOME</a>
             </li>
             <li class="c-breadcrumb__item">
-              <a href="" class="c-breadcrumb__link">採用情報 </a>
+              <a class="c-breadcrumb__link">採用情報 </a>
             </li>
             <li class="c-breadcrumb__item">
-              <a href="" class="c-breadcrumb__link">先輩インタビュー 2019年入社Aさん</a>
+              <a class="c-breadcrumb__link">先輩インタビュー 2019年入社Aさん</a>
             </li>
           </ul>
         </div>

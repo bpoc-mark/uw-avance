@@ -39,13 +39,13 @@
         <div class="container">
           <ul class="c-breadcrumb__wrap pc">
             <li class="c-breadcrumb__item">
-              <a href="" class="c-breadcrumb__link">HOME</a>
+              <a class="c-breadcrumb__link">HOME</a>
             </li>
             <li class="c-breadcrumb__item">
-              <a href="" class="c-breadcrumb__link">採用情報 </a>
+              <a class="c-breadcrumb__link">採用情報 </a>
             </li>
             <li class="c-breadcrumb__item">
-              <a href="" class="c-breadcrumb__link">先輩インタビュー 2015年入社Nさん</a>
+              <a class="c-breadcrumb__link">先輩インタビュー 2015年入社Nさん</a>
             </li>
           </ul>
         </div>
@@ -105,7 +105,7 @@
                   </picture>
                 </li>
                 <li class="item">
-                  <h3 class="ttl">IoT関連のシステムなどを開発</h3>
+                  <h3 class="ttl">IoTソリューションのシステムなどを開発</h3>
                   <p class="desc">
                   最近、私が関わった仕事としては、製造現場のデジタル化やIoT導入を実現するための「IoTベースシステム」があります。このシステムは小型コンピューターとクラウドサービスを使い、データ収集・データ見える化・データ分析ができるというものです。<br>
                   また、在席・離席・テレワークといった社員の状況を一目で管理できるソリューションをつくったのも最近です。新型コロナウィルスの流行を受けて、特に中小企業のお客様にニーズがあることがわかったため、開発しました。このソリューションでは、社員証を機器にタッチするだけという使いやすさを実現しました。

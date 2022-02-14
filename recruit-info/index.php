@@ -39,10 +39,10 @@
         <div class="container">
           <ul class="c-breadcrumb__wrap pc">
             <li class="c-breadcrumb__item">
-              <a href="" class="c-breadcrumb__link">HOME</a>
+              <a class="c-breadcrumb__link">HOME</a>
             </li>
             <li class="c-breadcrumb__item">
-              <a href="" class="c-breadcrumb__link">採用情報 </a>
+              <a class="c-breadcrumb__link">採用情報 </a>
             </li>
           </ul>
         </div>
@@ -84,7 +84,7 @@
             </div>
           </div>
         </div>
-        <div class="recruit__wrapper recruit__wrapper--reverse">
+        <div class="recruit__wrapper recruit__wrapper--reverse" id="seniors-interview">
           <div class="container">
             <div class="recruit__wrapper--row">
               <div class="recruit__wrapper--col recruit__wrapper--col__img2">
@@ -162,7 +162,7 @@
         <div class="container">
           <div class="c-service01--row">
             <div class="c-service01--col">
-              <a href="" class="c-service01__link">
+              <a href="/application-requirements/" class="c-service01__link">
                 <div class="c-service01__content">
                   <div class="c-service01__content--col c-service01__content--col--bg1">
                     <img src="/images/recruit-info/card-footer/sp/img_1.jpg" alt="募集要項" class="sp">
@@ -175,7 +175,7 @@
               </a>
             </div>
             <div class="c-service01--col">
-              <a href="/contact/" class="c-service01__link">
+              <a href="/recruitment-form/" class="c-service01__link">
                 <div class="c-service01__content">
                   <div class="c-service01__content--col c-service01__content--col--bg2">
                     <img src="/images/recruit-info/card-footer/sp/img_2.jpg" alt="エントリーフォーム" class="sp">

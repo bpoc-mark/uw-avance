@@ -11,16 +11,16 @@
 					<a href="/" class="nav--link">事業内容</a>
 					<ul class="nav--item__submenu">
 						<li class="nav--item__submenu--item">
-							<a href="/service/" class="nav--item__submenu--link">車載関連</a>
+							<a href="/service/" class="nav--item__submenu--link">車載ソリューション</a>
 						</li>
 						<li class="nav--item__submenu--item">
-							<a href="/service-iot/" class="nav--item__submenu--link">IoT関連</a>
+							<a href="/service-iot/" class="nav--item__submenu--link">IoTソリューション</a>
 						</li>
 						<li class="nav--item__submenu--item">
-							<a href="/service-production/" class="nav--item__submenu--link">生産管理関連</a>
+							<a href="/service-production/" class="nav--item__submenu--link">生産管理ソリューション</a>
 						</li>
 						<li class="nav--item__submenu--item">
-							<a href="/service-education/" class="nav--item__submenu--link">大学教育関連</a>
+							<a href="/service-education/" class="nav--item__submenu--link">大学教育ソリューション</a>
 						</li>
 						<li class="nav--item__submenu--item">
 							<a href="/service-safety/" class="nav--item__submenu--link">安否確認</a>
@@ -60,7 +60,7 @@
 						</ul>
 						<ul class="nav--item__submenu">
 							<li class="nav--item__submenu--item">
-								<a href="/recruit-info/" class="nav--item__submenu--link">先輩インタビュー</a>
+								<a href="/recruit-info/#seniors-interview" class="nav--item__submenu--link">先輩インタビュー</a>
 							</li>
 							<li class="nav--item__submenu--item">
 								<a href="/recruit-interview-2009/" class="nav--item__submenu--link">2009年入社Oさん</a>
@@ -78,10 +78,10 @@
 					</nav>
 				</li>
 				<li class="nav--item">
-					<a href="/" class="nav--link">アバンセラボ</a>
+					<a href="/business/" class="nav--link">アバンセラボ</a>
 				</li>
 				<li class="nav--item">
-					<a href="/news-detail/" class="nav--link">新着情報</a>
+					<a href="/news/" class="nav--link">新着情報</a>
 				</li>
 				<li class="nav--item">
 					<a href="/contact/" class="nav--link">お問い合わせ</a>
