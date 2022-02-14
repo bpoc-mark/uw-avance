@@ -39,13 +39,13 @@
         <div class="container">
           <ul class="c-breadcrumb__wrap pc">
             <li class="c-breadcrumb__item">
-              <a href="" class="c-breadcrumb__link">HOME</a>
+              <a class="c-breadcrumb__link">HOME</a>
             </li>
             <li class="c-breadcrumb__item">
-              <a href="" class="c-breadcrumb__link">会社案内 </a>
+              <a class="c-breadcrumb__link">会社案内 </a>
             </li>
             <li class="c-breadcrumb__item">
-              <a href="" class="c-breadcrumb__link">事業内容 </a>
+              <a class="c-breadcrumb__link">事業内容 </a>
             </li>
           </ul>
         </div>
@@ -77,11 +77,11 @@
         <div class="wrapper">
           <div class="container">
             <div class="content">
-              <h2 class="ttl">車載関連、IoT関連、生産管理関連、大学教育関連をはじめ<br>幅広い業界のソフトウェアニーズに対応</h2>
+              <h2 class="ttl">車載ソリューション、IoTソリューション、生産管理ソリューション、大学教育ソリューションをはじめ<br>幅広い業界のソフトウェアニーズに対応</h2>
               <p>
               当社の事業内容はアプリケーションソフト、ミドルウェア、ファームウェア（組み込み）の3領域にわたり、<br class="pc">
               幅広い業界のソフトウェア開発のニーズにお応えしています。<br>
-              これまでに車載関連、IoT関連、生産管理関連、大学教育関連などで数々の実績を重ね、お客様の製品開発をバックアップしてまいりました。<br>
+              これまでに車載ソリューション、IoTソリューション、生産管理ソリューション、大学教育ソリューションなどで数々の実績を重ね、お客様の製品開発をバックアップしてまいりました。<br>
               <br>
               私たちの願いは、お客様の商品開発に付加価値を提供するパートナーであり続けることです。<br>
               そのためにコア技術（アプリケーション、組み込み）を磨き上げ、永遠の未完を目指します。
@@ -129,11 +129,11 @@
                   <div class="card">
                     <picture >
                       <source srcset="/images/top/sect_2/sp/img1.jpg" media="(max-width: 899px)">
-                      <img src="/images/top/sect_2/img1.jpg" alt="車載関連" class="">
+                      <img src="/images/top/sect_2/img1.jpg" alt="車載ソリューション" class="">
                     </picture>
                     <div class="card--content">
                       <span class="card--content__num">01.</span>
-                      <h3 class="card--content__title">車載関連</h3>
+                      <h3 class="card--content__title">車載ソリューション</h3>
                       <p class="card--content__desc">車載ソフトウェア開発のご要望に豊富な実績とノウハウでお応えし</p>
                     </div>
                   </div>
@@ -144,11 +144,11 @@
                   <div class="card">
                     <picture >
                       <source srcset="/images/top/sect_2/sp/img2.jpg" media="(max-width: 899px)">
-                      <img src="/images/top/sect_2/img2.jpg" alt="IoT関連" class="">
+                      <img src="/images/top/sect_2/img2.jpg" alt="IoTソリューション" class="">
                     </picture>
                     <div class="card--content">
                       <span class="card--content__num">02.</span>
-                      <h3 class="card--content__title">IoT関連</h3>
+                      <h3 class="card--content__title">IoTソリューション</h3>
                       <p class="card--content__desc">テキストが入りますテキストが入りますテキストが入ります。</p>
                     </div>
                   </div>
@@ -174,11 +174,11 @@
                   <div class="card">
                     <picture >
                       <source srcset="/images/top/sect_2/sp/img4.jpg" media="(max-width: 899px)">
-                      <img src="/images/top/sect_2/img4.jpg" alt="大学教育関連" class="">
+                      <img src="/images/top/sect_2/img4.jpg" alt="大学教育ソリューション" class="">
                     </picture>
                     <div class="card--content">
                       <span class="card--content__num">04.</span>
-                      <h3 class="card--content__title">大学教育関連</h3>
+                      <h3 class="card--content__title">大学教育ソリューション</h3>
                       <p class="card--content__desc">テキストが入りますテキストが入りますテキストが入ります。</p>
                     </div>
                   </div>

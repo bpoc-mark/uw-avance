@@ -5,10 +5,10 @@
             <a href="/service/" class="c-service01__link">
                 <div class="c-service01__content">
                     <div class="c-service01__content--col c-service01__content--col--bg1">
-                    <img src="/images/common/card-footer/sp/img_1.jpg" alt="車載関連" class="sp">
+                    <img src="/images/common/card-footer/sp/img_1.jpg" alt="車載ソリューション" class="sp">
                     </div>
                     <div class="c-service01__content--col">
-                    <h3 class="c-service01__content--ttl-cont"><span class="c-service01__content--num">01.</span><span class="c-service01__content--ttl">車載関連</span></h3>
+                    <h3 class="c-service01__content--ttl-cont"><span class="c-service01__content--num">01.</span><span class="c-service01__content--ttl">車載ソリューション</span></h3>
                     <p class="c-service01__content--desc pc">テキストが入りますテキストが入りますテキストが入ります。</p>
                     </div>
                 </div>
@@ -18,10 +18,10 @@
             <a href="/service-iot/" class="c-service01__link">
                 <div class="c-service01__content">
                     <div class="c-service01__content--col c-service01__content--col--bg2">
-                    <img src="/images/common/card-footer/sp/img_2.jpg" alt="IoT関連" class="sp">
+                    <img src="/images/common/card-footer/sp/img_2.jpg" alt="IoTソリューション" class="sp">
                     </div>
                     <div class="c-service01__content--col">
-                    <h3 class="c-service01__content--ttl-cont"><span class="c-service01__content--num">02.</span><span class="c-service01__content--ttl">IoT関連</span></h3>
+                    <h3 class="c-service01__content--ttl-cont"><span class="c-service01__content--num">02.</span><span class="c-service01__content--ttl">IoTソリューション</span></h3>
                     <p class="c-service01__content--desc pc">テキストが入りますテキストが入りますテキストが入ります。</p>
                     </div>
                 </div>
@@ -44,10 +44,10 @@
             <a href="/service-education/" class="c-service01__link">
                 <div class="c-service01__content">
                     <div class="c-service01__content--col c-service01__content--col--bg4">
-                    <img src="/images/common/card-footer/sp/img_4.jpg" alt="大学教育関連" class="sp">
+                    <img src="/images/common/card-footer/sp/img_4.jpg" alt="大学教育ソリューション" class="sp">
                     </div>
                     <div class="c-service01__content--col">
-                    <h3 class="c-service01__content--ttl-cont"><span class="c-service01__content--num">04.</span><span class="c-service01__content--ttl">大学教育関連</span></h3>
+                    <h3 class="c-service01__content--ttl-cont"><span class="c-service01__content--num">04.</span><span class="c-service01__content--ttl">大学教育ソリューション</span></h3>
                     <p class="c-service01__content--desc pc">テキストが入りますテキストが入りますテキストが入ります。</p>
                     </div>
                 </div>

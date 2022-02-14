@@ -38,10 +38,10 @@
 				<div class="container">
 					<ul class="c-breadcrumb__wrap pc">
 						<li class="c-breadcrumb__item">
-							<a href="" class="c-breadcrumb__link">HOME</a>
+							<a class="c-breadcrumb__link">HOME</a>
 						</li>
 						<li class="c-breadcrumb__item">
-							<a href="" class="  c-breadcrumb__link">採用エントリー</a>
+							<a class="c-breadcrumb__link">採用エントリー</a>
 						</li>
 					</ul>
 				</div>
@@ -53,7 +53,7 @@
               <p class="h-desc">
 								弊社に関するお問合せは以下のフォームをご利用ください。人材採用のご応募はエントリーシートよりお願いいたします。<br>
 								ご入力いただきました個人情報につきましては、お問合せにお応えする目的以外に利用されることはありません。<br>
-								詳しくは<a href="">プライバシーポリシー</a>をご覧ください。
+								詳しくは<a href="/privacy-policy/">プライバシーポリシー</a>をご覧ください。
 							</p>
               <form method="post" name="sfm-form" id="sfm-form" action="./">
                 <table>

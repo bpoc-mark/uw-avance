@@ -59,11 +59,11 @@
 										<div class="card">
 											<picture >
 												<source srcset="/images/top/sect_2/sp/img1.jpg" media="(max-width: 899px)">
-												<img src="/images/top/sect_2/img1.jpg" alt="車載関連" class="">
+												<img src="/images/top/sect_2/img1.jpg" alt="車載ソリューション" class="">
 											</picture>
 											<div class="card--content">
 												<span class="card--content__num">01.</span>
-												<h3 class="card--content__title">車載関連</h3>
+												<h3 class="card--content__title">車載ソリューション</h3>
 												<p class="card--content__desc">車載ソフトウェア開発のご要望に豊富な実績とノウハウでお応えし</p>
 											</div>
 										</div>
@@ -74,11 +74,11 @@
 										<div class="card">
 											<picture >
 												<source srcset="/images/top/sect_2/sp/img2.jpg" media="(max-width: 899px)">
-												<img src="/images/top/sect_2/img2.jpg" alt="IoT関連" class="">
+												<img src="/images/top/sect_2/img2.jpg" alt="IoTソリューション" class="">
 											</picture>
 											<div class="card--content">
 												<span class="card--content__num">02.</span>
-												<h3 class="card--content__title">IoT関連</h3>
+												<h3 class="card--content__title">IoTソリューション</h3>
 												<p class="card--content__desc">テキストが入りますテキストが入りますテキストが入ります。</p>
 											</div>
 										</div>
@@ -89,11 +89,11 @@
 										<div class="card">
 											<picture >
 												<source srcset="/images/top/sect_2/sp/img3.jpg" media="(max-width: 899px)">
-												<img src="/images/top/sect_2/img3.jpg" alt="生産関連" class="">
+												<img src="/images/top/sect_2/img3.jpg" alt="生産管理ソリューション" class="">
 											</picture>
 											<div class="card--content">
 												<span class="card--content__num">03.</span>
-												<h3 class="card--content__title">生産関連</h3>
+												<h3 class="card--content__title">生産管理ソリューション</h3>
 												<p class="card--content__desc">テキストが入りますテキストが入りますテキストが入ります。</p>
 											</div>
 										</div>
@@ -104,11 +104,11 @@
 										<div class="card">
 											<picture >
 												<source srcset="/images/top/sect_2/sp/img4.jpg" media="(max-width: 899px)">
-												<img src="/images/top/sect_2/img4.jpg" alt="大学教育関連" class="">
+												<img src="/images/top/sect_2/img4.jpg" alt="大学教育ソリューション" class="">
 											</picture>
 											<div class="card--content">
 												<span class="card--content__num">04.</span>
-												<h3 class="card--content__title">大学教育関連</h3>
+												<h3 class="card--content__title">大学教育ソリューション</h3>
 												<p class="card--content__desc">テキストが入りますテキストが入りますテキストが入ります。</p>
 											</div>
 										</div>
