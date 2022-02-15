@@ -145,7 +145,7 @@
                     </tr>
                     <tr>
                       <th>応募方法</th>
-                      <td>エントリーは<a href="/recruitment-form/" class="a-link">こちら</a>からお願いします。</td>
+                      <td>エントリーは<a href="/recruit/form/" class="a-link">こちら</a>からお願いします。</td>
                     </tr>
                   </table>
                 </li>

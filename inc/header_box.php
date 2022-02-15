@@ -92,7 +92,7 @@ $str = explode('/', $url); ?>
 			<li class="nav--item"><a href="/laboratory/" class="nav--link <?php if ($str[1] == "business") {
 												echo 'isActive';
 											} ?>" >アバンセラボ</a></li>
-			<li class="nav--item"><a href="/recruit-info/" class="nav--link <?php if ($str[1] == "recruit-info") {
+			<li class="nav--item"><a href="/recruit/info/" class="nav--link <?php if ($str[1] == "recruit") {
 												echo 'isActive';
 											} ?>" >採用情報</a></li>
 			<li class="nav--item"><a href="/contact/" class="nav--link <?php if ($str[1] == "contact") {
