@@ -38,7 +38,7 @@ $str = explode('/', $url); ?>
 									</a>
 								</div>
 								<div class="c-service01--col">
-									<a href="/service-iot/" class="c-service01__link">
+									<a href="/service/iot/" class="c-service01__link">
 										<div class="c-service01__content">
 											<div class="c-service01__content--col c-service01__content--col--bg2 pc">
 											</div>
@@ -49,7 +49,7 @@ $str = explode('/', $url); ?>
 									</a>
 								</div>
 								<div class="c-service01--col">
-									<a href="/service-production/" class="c-service01__link">
+									<a href="/service/production/" class="c-service01__link">
 										<div class="c-service01__content">
 											<div class="c-service01__content--col c-service01__content--col--bg3 pc">
 											</div>
@@ -60,7 +60,7 @@ $str = explode('/', $url); ?>
 									</a>
 								</div>
 								<div class="c-service01--col">
-									<a href="/service-education/" class="c-service01__link">
+									<a href="/service/education/" class="c-service01__link">
 										<div class="c-service01__content">
 											<div class="c-service01__content--col c-service01__content--col--bg4 pc">
 											</div>
@@ -71,7 +71,7 @@ $str = explode('/', $url); ?>
 									</a>
 								</div>
 								<div class="c-service01--col">
-									<a href="/service-safety/" class="c-service01__link">
+									<a href="/service/safety/" class="c-service01__link">
 										<div class="c-service01__content">
 											<div class="c-service01__content--col c-service01__content--col--bg5 pc">
 											</div>

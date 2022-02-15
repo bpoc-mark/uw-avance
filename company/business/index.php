@@ -58,16 +58,16 @@
                 <a href="/company/" class="page-menu--link">会社案内</a>
               </li>
               <li class="page-menu--item">
-                <a href="/message/" class="page-menu--link">トップメッセージ</a>
+                <a href="/company/message/" class="page-menu--link">トップメッセージ</a>
               </li>
               <li class="page-menu--item">
-                <a href="/business/" class="page-menu--link page-menu--link__active">事業内容</a>
+                <a href="/company/business/" class="page-menu--link page-menu--link__active">事業内容</a>
               </li>
               <li class="page-menu--item">
-                <a href="/development/" class="page-menu--link">開発環境実績</a>
+                <a href="/company/development/" class="page-menu--link">開発環境実績</a>
               </li>
               <li class="page-menu--item">
-                <a href="/history/" class="page-menu--link">沿革</a>
+                <a href="/company/history/" class="page-menu--link">沿革</a>
               </li>
             </ul>
          </div>
@@ -140,7 +140,7 @@
                 </a>
               </div>
               <div class="col c-anim-up">
-                <a href="/service-iot/">
+                <a href="/service/iot/">
                   <div class="card">
                     <picture >
                       <source srcset="/images/top/sect_2/sp/img2.jpg" media="(max-width: 899px)">
@@ -155,7 +155,7 @@
                 </a>
               </div>
               <div class="col c-anim-up">
-                <a href="/service-production/">
+                <a href="/service/production/">
                   <div class="card">
                     <picture >
                       <source srcset="/images/top/sect_2/sp/img3.jpg" media="(max-width: 899px)">
@@ -170,7 +170,7 @@
                 </a>
               </div>
               <div class="col c-anim-up">
-                <a href="/service-education/">
+                <a href="/service/education/">
                   <div class="card">
                     <picture >
                       <source srcset="/images/top/sect_2/sp/img4.jpg" media="(max-width: 899px)">
@@ -185,7 +185,7 @@
                 </a>
               </div>
               <div class="col c-anim-up">
-                <a href="/service-safety/">
+                <a href="/service/safety/">
                   <div class="card">
                     <picture >
                       <source srcset="/images/top/sect_2/sp/img5.jpg" media="(max-width: 899px)">

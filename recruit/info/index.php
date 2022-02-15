@@ -77,7 +77,7 @@
                   アバンセシステムのエンジニアたちは理系出身でも文系出身でも同じように活躍しています。アバンセシステムで活躍するエンジニアの経歴は、実に多様です。<br>
 理系・文系・美術系。誰もが優れた技術で確かな成果を出しながら、一人ひとりの個性を発揮して新しい仕事を生み出しています。
                   </p>
-                  <a href="/recruit-people/" class="c-button01 c-button01--primary c-button01--lg"><span class="c-button01--text">人への想い</span></a>
+                  <a href="/recruit/people/" class="c-button01 c-button01--primary c-button01--lg"><span class="c-button01--text">人への想い</span></a>
                 </div>
               </div>
             </div>
@@ -97,7 +97,7 @@
                   </p>
                   <ul class="interview">
                     <li class="interview--item">
-                      <a href="/recruit-interview-2009/" class="interview--link">
+                      <a href="/recruit/interview-2009/" class="interview--link">
                         <div class="interview--item--row">
                           <div class="interview--item--col">
                             <span class="interview--item--col__num">01.</span>
@@ -110,7 +110,7 @@
                       </a>
                     </li>
                     <li class="interview--item">
-                      <a href="/recruit-interview-2013/" class="interview--link">
+                      <a href="/recruit/interview-2013/" class="interview--link">
                         <div class="interview--item--row">
                           <div class="interview--item--col">
                             <span class="interview--item--col__num">02.</span>
@@ -123,7 +123,7 @@
                       </a>
                     </li>
                     <li class="interview--item">
-                      <a href="/recruit-interview-2015/" class="interview--link">
+                      <a href="/recruit/interview-2015/" class="interview--link">
                         <div class="interview--item--row">
                           <div class="interview--item--col">
                             <span class="interview--item--col__num">03.</span>
@@ -136,7 +136,7 @@
                       </a>
                     </li>
                     <li class="interview--item">
-                      <a href="/recruit-interview-2019/" class="interview--link">
+                      <a href="/recruit/interview-2019/" class="interview--link">
                         <div class="interview--item--row">
                           <div class="interview--item--col">
                             <span class="interview--item--col__num">04.</span>
@@ -159,7 +159,7 @@
         <div class="container">
           <div class="c-service01--row">
             <div class="c-service01--col">
-              <a href="/application-requirements/" class="c-service01__link">
+              <a href="/recruit/application-requirements/" class="c-service01__link">
                 <div class="c-service01__content">
                   <div class="c-service01__content--col c-service01__content--col--bg1">
                     <img src="/images/recruit/recruit-info/card-footer/sp/img_1.jpg" alt="募集要項" class="sp">
@@ -172,7 +172,7 @@
               </a>
             </div>
             <div class="c-service01--col">
-              <a href="/recruitment-form/" class="c-service01__link">
+              <a href="/recruit/form/" class="c-service01__link">
                 <div class="c-service01__content">
                   <div class="c-service01__content--col c-service01__content--col--bg2">
                     <img src="/images/recruit/recruit-info/card-footer/sp/img_2.jpg" alt="エントリーフォーム" class="sp">

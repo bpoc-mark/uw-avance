@@ -15,7 +15,7 @@
             </a>
         </div>
         <div class="c-service01--col">
-            <a href="/service-iot/" class="c-service01__link">
+            <a href="/service/iot/" class="c-service01__link">
                 <div class="c-service01__content">
                     <div class="c-service01__content--col c-service01__content--col--bg2">
                     <img src="/images/common/card-footer/sp/img_2.jpg" alt="IoTソリューション" class="sp">
@@ -28,7 +28,7 @@
             </a>
         </div>
         <div class="c-service01--col">
-            <a href="/service-production/" class="c-service01__link">
+            <a href="/service/production/" class="c-service01__link">
                 <div class="c-service01__content">
                     <div class="c-service01__content--col c-service01__content--col--bg3">
                     <img src="/images/common/card-footer/sp/img_3.jpg" alt="生産関連" class="sp">
@@ -41,7 +41,7 @@
             </a>
         </div>
         <div class="c-service01--col">
-            <a href="/service-education/" class="c-service01__link">
+            <a href="/service/education/" class="c-service01__link">
                 <div class="c-service01__content">
                     <div class="c-service01__content--col c-service01__content--col--bg4">
                     <img src="/images/common/card-footer/sp/img_4.jpg" alt="大学教育ソリューション" class="sp">
@@ -54,7 +54,7 @@
             </a>
         </div>
         <div class="c-service01--col">
-            <a href="/service-safety/" class="c-service01__link">
+            <a href="/service/safety/" class="c-service01__link">
                 <div class="c-service01__content">
                     <div class="c-service01__content--col c-service01__content--col--bg5">
                     <img src="/images/common/card-footer/sp/img_5.jpg" alt="安否確認システム" class="sp">

@@ -55,16 +55,16 @@
                 <a href="/company/" class="page-menu--link page-menu--link__active">会社案内</a>
               </li>
               <li class="page-menu--item">
-                <a href="/message/" class="page-menu--link">トップメッセージ</a>
+                <a href="/company/message/" class="page-menu--link">トップメッセージ</a>
               </li>
               <li class="page-menu--item">
-                <a href="/business/" class="page-menu--link">事業内容</a>
+                <a href="/company/business/" class="page-menu--link">事業内容</a>
               </li>
               <li class="page-menu--item">
-                <a href="/development/" class="page-menu--link">開発環境実績</a>
+                <a href="/company/development/" class="page-menu--link">開発環境実績</a>
               </li>
               <li class="page-menu--item">
-                <a href="/history/" class="page-menu--link">沿革</a>
+                <a href="/company/history/" class="page-menu--link">沿革</a>
               </li>
             </ul>
          </div>

@@ -55,16 +55,16 @@
          <div class="content">
             <ul class="page-menu--list">
               <li class="page-menu--item">
-                <a href="/recruit-info/" class="page-menu--link">採用情報</a>
+                <a href="/recruit/info/" class="page-menu--link">採用情報</a>
               </li>
               <li class="page-menu--item">
-                <a href="/recruit-people/" class="page-menu--link page-menu--link__active">人への想い</a>
+                <a href="/recruit/people/" class="page-menu--link page-menu--link__active">人への想い</a>
               </li>
               <li class="page-menu--item">
-                <a href="/application-requirements/" class="page-menu--link">募集要項</a>
+                <a href="/recruit/application-requirements/" class="page-menu--link">募集要項</a>
               </li>
               <li class="page-menu--item">
-                <a href="/recruitment-form/" class="page-menu--link">エントリーフォーム</a>
+                <a href="/recruit/form/" class="page-menu--link">エントリーフォーム</a>
               </li>
             </ul>
             <ul class="page-menu--list">
@@ -72,16 +72,16 @@
                 <span class="page-menu--link page-menu--link--lbl">先輩インタビュー</span>
               </li>
               <li class="page-menu--item"> 
-                <a href="/recruit-interview-2009/" class="page-menu--link">2009年入社Oさん</a>
+                <a href="/recruit/interview-2009/" class="page-menu--link">2009年入社Oさん</a>
               </li>
               <li class="page-menu--item">
-                <a href="/recruit-interview-2013/" class="page-menu--link">2013年入社Hさん</a>
+                <a href="/recruit/interview-2013/" class="page-menu--link">2013年入社Hさん</a>
               </li>
               <li class="page-menu--item">
-                <a href="/recruit-interview-2015/" class="page-menu--link">2015年入社Nさん</a>
+                <a href="/recruit/interview-2015/" class="page-menu--link">2015年入社Nさん</a>
               </li>
               <li class="page-menu--item">
-                <a href="/recruit-interview-2019/" class="page-menu--link">2019年入社Aさん</a>
+                <a href="/recruit/interview-2019/" class="page-menu--link">2019年入社Aさん</a>
               </li>
             </ul>
          </div>

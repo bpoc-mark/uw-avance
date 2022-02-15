@@ -70,7 +70,7 @@
 									</a>
 								</div>
 								<div class="col c-anim-up">
-									<a href="/service-iot/">
+									<a href="/service/iot/">
 										<div class="card">
 											<picture >
 												<source srcset="/images/top/sect_2/sp/img2.jpg" media="(max-width: 899px)">
@@ -85,7 +85,7 @@
 									</a>
 								</div>
 								<div class="col c-anim-up">
-									<a href="/service-production/">
+									<a href="/service/production/">
 										<div class="card">
 											<picture >
 												<source srcset="/images/top/sect_2/sp/img3.jpg" media="(max-width: 899px)">
@@ -100,7 +100,7 @@
 									</a>
 								</div>
 								<div class="col c-anim-up">
-									<a href="/service-education/">
+									<a href="/service/education/">
 										<div class="card">
 											<picture >
 												<source srcset="/images/top/sect_2/sp/img4.jpg" media="(max-width: 899px)">
@@ -115,7 +115,7 @@
 									</a>
 								</div>
 								<div class="col c-anim-up">
-									<a href="/service-safety/">
+									<a href="/service/safety/">
 										<div class="card">
 											<picture >
 												<source srcset="/images/top/sect_2/sp/img5.jpg" media="(max-width: 899px)">
@@ -190,7 +190,7 @@
 						<div class="bg_cont">
 							<div class="bg_cont--content">
 								<h3 class="bg_cont--content__title c-anim-up">向上心を持って、一流のSEとして<br>私たちと共に働きませんか？</h3>
-								<a href="/recruit-info/" class="c-button01 c-button01--secondary c-button01--lg"><span class="c-button01--text">採用情報</span></a>
+								<a href="/recruit/info/" class="c-button01 c-button01--secondary c-button01--lg"><span class="c-button01--text">採用情報</span></a>
 							</div>
 						</div>
 					</div>
