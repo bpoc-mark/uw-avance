@@ -20,7 +20,7 @@ $str = explode('/', $url); ?>
 											} ?>">HOME</a></li>
 			<li class="nav--item"><a href="/service/" class="nav--link <?php if ($str[1] == "service") {
 												echo 'isActive';
-											} ?>" >事業内容</a>
+											} ?>" >サービス紹介</a>
 				<span class="header-drop-icon sp"></span>
 				<div class="nav--submenu">
 					<div class="c-service01">
@@ -32,7 +32,7 @@ $str = explode('/', $url); ?>
 											<div class="c-service01__content--col c-service01__content--col--bg1 pc">
 											</div>
 											<div class="c-service01__content--col">
-												<h3 class="c-service01__content--ttl-cont"><span class="c-service01__content--num">01.</span><span class="c-service01__content--ttl">車載関連</span></h3>
+												<h3 class="c-service01__content--ttl-cont"><span class="c-service01__content--num">01.</span><span class="c-service01__content--ttl">車載ソリューション</span></h3>
 											</div>
 										</div>
 									</a>
@@ -43,7 +43,7 @@ $str = explode('/', $url); ?>
 											<div class="c-service01__content--col c-service01__content--col--bg2 pc">
 											</div>
 											<div class="c-service01__content--col">
-												<h3 class="c-service01__content--ttl-cont"><span class="c-service01__content--num">02.</span><span class="c-service01__content--ttl">IoT関連</span></h3>
+												<h3 class="c-service01__content--ttl-cont"><span class="c-service01__content--num">02.</span><span class="c-service01__content--ttl">IoTソリューション</span></h3>
 											</div>
 										</div>
 									</a>
@@ -54,7 +54,7 @@ $str = explode('/', $url); ?>
 											<div class="c-service01__content--col c-service01__content--col--bg3 pc">
 											</div>
 											<div class="c-service01__content--col">
-												<h3 class="c-service01__content--ttl-cont"><span class="c-service01__content--num">03.</span><span class="c-service01__content--ttl">生産関連</span></h3>
+												<h3 class="c-service01__content--ttl-cont"><span class="c-service01__content--num">03.</span><span class="c-service01__content--ttl">生産管理ソリューション</span></h3>
 											</div>
 										</div>
 									</a>
@@ -65,7 +65,7 @@ $str = explode('/', $url); ?>
 											<div class="c-service01__content--col c-service01__content--col--bg4 pc">
 											</div>
 											<div class="c-service01__content--col">
-												<h3 class="c-service01__content--ttl-cont"><span class="c-service01__content--num">04.</span><span class="c-service01__content--ttl">大学教育関連</span></h3>
+												<h3 class="c-service01__content--ttl-cont"><span class="c-service01__content--num">04.</span><span class="c-service01__content--ttl">大学教育ソリューション</span></h3>
 											</div>
 										</div>
 									</a>
