@@ -136,7 +136,7 @@
                   <h3 class="ceo"><span>代表取締役社長</span><br>村山 邦彦</h3>
                 </div>
                 <div class="col">
-                  <img src="/images/message/img_1.jpg" alt="村山 邦彦">
+                  <img src="/images/company/message/img_1.jpg" alt="村山 邦彦">
                 </div>
               </div>
             </div>

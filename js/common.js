@@ -27,6 +27,7 @@ $(function () {
     if (w > 900) {
       $('.nav--item__submenu').removeAttr('style');
       $('.submenu-wrap').removeAttr('style');
+      $('.nav--submenu').removeAttr('style');
     }
   });
 
@@ -48,6 +49,17 @@ $(function () {
     }else{
       $(this).addClass('isActive');
       $(this).next('.submenu-wrap').slideDown();
+    }
+  })
+
+  $('.header_inner .nav .nav--item:nth-child(2) .header-drop-icon').click(function(e){
+    // e.preventDefault();
+    if($(this).hasClass('isActive')){
+      $(this).removeClass('isActive');
+      $(this).next('.nav--submenu').slideUp();
+    }else{
+      $(this).addClass('isActive');
+      $(this).next('.nav--submenu').slideDown();
     }
   })
 

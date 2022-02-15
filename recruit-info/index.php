@@ -68,7 +68,7 @@
           <div class="container">
             <div class="recruit__wrapper--row">
               <div class="recruit__wrapper--col recruit__wrapper--col__img1">
-                <img src="/images/recruit-info/sp/img_1.jpg" class="sp" alt="人への想い">
+                <img src="/images/recruit/recruit-info/sp/img_1.jpg" class="sp" alt="人への想い">
               </div>
               <div class="recruit__wrapper--col">
                 <div class="recruit__wrapper--col__content">
@@ -87,7 +87,7 @@
           <div class="container">
             <div class="recruit__wrapper--row">
               <div class="recruit__wrapper--col recruit__wrapper--col__img2">
-                <img src="/images/recruit-info/sp/img_2.jpg" class="sp" alt="先輩インタビュー">
+                <img src="/images/recruit/recruit-info/sp/img_2.jpg" class="sp" alt="先輩インタビュー">
               </div>
               <div class="recruit__wrapper--col">
                 <div class="recruit__wrapper--col__content">
@@ -162,7 +162,7 @@
               <a href="/application-requirements/" class="c-service01__link">
                 <div class="c-service01__content">
                   <div class="c-service01__content--col c-service01__content--col--bg1">
-                    <img src="/images/recruit-info/card-footer/sp/img_1.jpg" alt="募集要項" class="sp">
+                    <img src="/images/recruit/recruit-info/card-footer/sp/img_1.jpg" alt="募集要項" class="sp">
                   </div>
                   <div class="c-service01__content--col">
                     <h3 class="c-service01__content--ttl-cont"><span class="c-service01__content--ttl">募集要項</span></h3>
@@ -175,7 +175,7 @@
               <a href="/recruitment-form/" class="c-service01__link">
                 <div class="c-service01__content">
                   <div class="c-service01__content--col c-service01__content--col--bg2">
-                    <img src="/images/recruit-info/card-footer/sp/img_2.jpg" alt="エントリーフォーム" class="sp">
+                    <img src="/images/recruit/recruit-info/card-footer/sp/img_2.jpg" alt="エントリーフォーム" class="sp">
                   </div>
                   <div class="c-service01__content--col">
                     <h3 class="c-service01__content--ttl-cont"><span class="c-service01__content--ttl">エントリーフォーム</span></h3>

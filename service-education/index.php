@@ -66,7 +66,7 @@
           <div class="container">
             <div class="service__wrapper--row">
               <div class="service__wrapper--col service__wrapper--col__img1">
-                <img src="/images/service-education/sp/img_1.jpg" class="sp" alt="主な事業">
+                <img src="/images/service/service-education/sp/img_1.jpg" class="sp" alt="主な事業">
               </div>
               <div class="service__wrapper--col">
                 <div class="service__wrapper--col__content">
@@ -101,7 +101,7 @@
           <div class="container">
             <div class="service__wrapper--row">
               <div class="service__wrapper--col service__wrapper--col__img1">
-                <img src="/images/service-education/sp/img_2.jpg" class="sp" alt="開発実績">
+                <img src="/images/service/service-education/sp/img_2.jpg" class="sp" alt="開発実績">
               </div>
               <div class="service__wrapper--col">
                 <div class="service__wrapper--col__content">

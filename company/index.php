@@ -178,10 +178,10 @@
               </div>
               <div class="row">
                 <div class="col">
-                  <img src="/images/company/img_1.jpg " alt="">
+                  <img src="/images/company/company-page/img_1.jpg " alt="本社">
                 </div>
                 <div class="col">
-                  <img src="/images/company/img_2.jpg " alt="">
+                  <img src="/images/company/company-page/img_2.jpg " alt="東京営業所">
                 </div>
               </div>
             </div>

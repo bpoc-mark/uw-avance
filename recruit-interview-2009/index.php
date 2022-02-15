@@ -41,7 +41,7 @@
             <li class="c-breadcrumb__item">
               <a class="c-breadcrumb__link">HOME</a>
             </li>
-            <li class="c-breadcrumb__item">
+            <li class="c-breadcrumb_  _item">
               <a class="c-breadcrumb__link">採用情報 </a>
             </li>
             <li class="c-breadcrumb__item">
@@ -72,16 +72,16 @@
                 <span class="page-menu--link page-menu--link--lbl">先輩インタビュー</span>
               </li>
               <li class="page-menu--item"> 
-                <span class="page-menu--link page-menu--link__active">2009年入社Oさん</span>
+                <a href="/recruit-interview-2009/" class="page-menu--link page-menu--link__active">2009年入社Oさん</a>
               </li>
               <li class="page-menu--item">
-                <span class="page-menu--link">2013年入社Hさん</span>
+                <a href="/recruit-interview-2013/" class="page-menu--link">2013年入社Hさん</a>
               </li>
               <li class="page-menu--item">
-                <span class="page-menu--link">2015年入社Nさん</span>
+                <a href="/recruit-interview-2015/" class="page-menu--link">2015年入社Nさん</a>
               </li>
               <li class="page-menu--item">
-                <span class="page-menu--link">2019年入社Aさん</span>
+                <a href="/recruit-interview-2019/" class="page-menu--link">2019年入社Aさん</a>
               </li>
             </ul>
          </div>
@@ -99,8 +99,8 @@
                     それでもIT業界に興味があったので、地元の静岡県西部で未経験者を育成してくれる会社を探し、アバンセシステムに入社しました。
                   </p>
                   <picture >
-                    <source srcset="/images/recruit-interview-2009/sp/img_1.jpg" media="(max-width: 899px)">
-                    <img src="/images/recruit-interview-2009/img_1.jpg" alt="話題の技術でソフトを開発できる" class="">
+                    <source srcset="/images/recruit/recruit-interview-2009/sp/img_1.jpg" media="(max-width: 899px)">
+                    <img src="/images/recruit/recruit-interview-2009/img_1.jpg" alt="話題の技術でソフトを開発できる" class="">
                   </picture>
                 </li>
                 <li class="item">
@@ -133,8 +133,8 @@
                     お客様のお考えをしっかりと確認しながら、漏れがないように詰めていきます。
                   </p>
                   <picture >
-                    <source srcset="/images/recruit-interview-2009/sp/img_2.jpg" media="(max-width: 899px)">
-                    <img src="/images/recruit-interview-2009/img_2.jpg" alt="アプリ開発は要件定義・仕様検討がポイント" class="">
+                    <source srcset="/images/recruit/recruit-interview-2009/sp/img_2.jpg" media="(max-width: 899px)">
+                    <img src="/images/recruit/recruit-interview-2009/img_2.jpg" alt="アプリ開発は要件定義・仕様検討がポイント" class="">
                   </picture>
                 </li>
                 <li class="item">

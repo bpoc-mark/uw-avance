@@ -14,7 +14,7 @@
   <meta property="og:description" content="<?php echo DESCRIPTION ?>" />
   <meta property="og:url" content="<?php echo CANONICAL ?>" />
 
-  <title>先輩インタビュー2009年入社Oさん | <?php echo SITE_NAME ?></title>
+  <title>先輩インタビュー2019年入社Aさん | <?php echo SITE_NAME ?></title>
 
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_include.php"); ?>
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/ga.php"); ?>
@@ -72,16 +72,16 @@
                 <span class="page-menu--link page-menu--link--lbl">先輩インタビュー</span>
               </li>
               <li class="page-menu--item"> 
-                <span class="page-menu--link">2009年入社Oさん</span>
+                <a href="/recruit-interview-2009/" class="page-menu--link">2009年入社Oさん</a>
               </li>
               <li class="page-menu--item">
-                <span class="page-menu--link">2013年入社Hさん</span>
+                <a href="/recruit-interview-2013/" class="page-menu--link">2013年入社Hさん</a>
               </li>
               <li class="page-menu--item">
-                <span class="page-menu--link">2015年入社Nさん</span>
+                <a href="/recruit-interview-2015/" class="page-menu--link">2015年入社Nさん</a>
               </li>
               <li class="page-menu--item">
-                <span class="page-menu--link page-menu--link__active">2019年入社Aさん</span>
+                <a href="/recruit-interview-2019/" class="page-menu--link page-menu--link__active">2019年入社Aさん</a>
               </li>
             </ul>
          </div>
@@ -99,8 +99,8 @@
                   私は大学では電気専攻で、プログラミングは少しかじった程度でした。ほぼ未経験と言ってよいレベルでした。それでもIT業界で働きたかったため、出身地の静岡県内で地元密着のIT関係企業を探し、アバンセシステムを見つけました。
                   </p>
                   <picture >
-                    <source srcset="/images/recruit-interview-2019/sp/img_1.jpg" media="(max-width: 899px)">
-                    <img src="/images/recruit-interview-2019/img_1.jpg" alt="話題の技術でソフトを開発できる" class="">
+                    <source srcset="/images/recruit/recruit-interview-2019/sp/img_1.jpg" media="(max-width: 899px)">
+                    <img src="/images/recruit/recruit-interview-2019/img_1.jpg" alt="話題の技術でソフトを開発できる" class="">
                   </picture>
                 </li>
                 <li class="item">
@@ -125,8 +125,8 @@
                   難問にぶつかったとき、あえて別のことに意識を向ける方法もあります。例えば、コードを何度書き直してもエラーになる個所があるとき。エラーになる関数についていろいろ調べても、答が見つからなければ、帰宅してまったく別のことをやってみます。そうすると、「あの処理って、あの部分が関係してるよね」と、それまで眼中になかった個所に問題がある可能性に気づいたりします。こういうところも、ソフト開発の面白さだと思います。
                   </p>
                   <picture >
-                    <source srcset="/images/recruit-interview-2019/sp/img_2.jpg" media="(max-width: 899px)">
-                    <img src="/images/recruit-interview-2019/img_2.jpg" alt="アプリ開発は要件定義・仕様検討がポイント" class="">
+                    <source srcset="/images/recruit/recruit-interview-2019/sp/img_2.jpg" media="(max-width: 899px)">
+                    <img src="/images/recruit/recruit-interview-2019/img_2.jpg" alt="アプリ開発は要件定義・仕様検討がポイント" class="">
                   </picture>
                 </li>
                 <li class="item">

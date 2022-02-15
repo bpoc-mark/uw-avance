@@ -14,7 +14,7 @@
   <meta property="og:description" content="<?php echo DESCRIPTION ?>" />
   <meta property="og:url" content="<?php echo CANONICAL ?>" />
 
-  <title>先輩インタビュー2009年入社Oさん | <?php echo SITE_NAME ?></title>
+  <title>先輩インタビュー2013年入社Hさん | <?php echo SITE_NAME ?></title>
 
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_include.php"); ?>
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/ga.php"); ?>
@@ -72,16 +72,16 @@
                 <span class="page-menu--link page-menu--link--lbl">先輩インタビュー</span>
               </li>
               <li class="page-menu--item"> 
-                <span class="page-menu--link">2009年入社Oさん</span>
+                <a href="/recruit-interview-2009/" class="page-menu--link">2009年入社Oさん</a>
               </li>
               <li class="page-menu--item">
-                <span class="page-menu--link page-menu--link__active">2013年入社Hさん</span>
+                <a href="/recruit-interview-2013/" class="page-menu--link page-menu--link__active">2013年入社Hさん</a>
               </li>
               <li class="page-menu--item">
-                <span class="page-menu--link">2015年入社Nさん</span>
+                <a href="/recruit-interview-2015/" class="page-menu--link">2015年入社Nさん</a>
               </li>
               <li class="page-menu--item">
-                <span class="page-menu--link">2019年入社Aさん</span>
+                <a href="/recruit-interview-2019/" class="page-menu--link">2019年入社Aさん</a>
               </li>
             </ul>
          </div>
@@ -99,8 +99,8 @@
                     ところが、アバンセシステムは入社前の知識よりも、働き始めてからの意欲が重視されるとのこと。「私に合っているかも」と興味がわきました。結局、面接で私のデザインスキルを強みとして評価してもらえたことが決め手になり、入社を決めました。
                   </p>
                   <picture >
-                    <source srcset="/images/recruit-interview-2013/sp/img_1.jpg" media="(max-width: 899px)">
-                    <img src="/images/recruit-interview-2013/img_1.jpg" alt="話題の技術でソフトを開発できる" class="">
+                    <source srcset="/images/recruit/recruit-interview-2013/sp/img_1.jpg" media="(max-width: 899px)">
+                    <img src="/images/recruit/recruit-interview-2013/img_1.jpg" alt="話題の技術でソフトを開発できる" class="">
                   </picture>
                 </li>
                 <li class="item">
@@ -125,8 +125,8 @@
                     また、システムエンジニアとしてサーバーの管理に当たることもあります。1つのスキルだけのプロフェッショナルではなく、幅広い分野に強くなれるところが魅力です。
                   </p>
                   <picture >
-                    <source srcset="/images/recruit-interview-2013/sp/img_2.jpg" media="(max-width: 899px)">
-                    <img src="/images/recruit-interview-2013/img_2.jpg" alt="アプリ開発は要件定義・仕様検討がポイント" class="">
+                    <source srcset="/images/recruit/recruit-interview-2013/sp/img_2.jpg" media="(max-width: 899px)">
+                    <img src="/images/recruit/recruit-interview-2013/img_2.jpg" alt="アプリ開発は要件定義・仕様検討がポイント" class="">
                   </picture>
                 </li>
                 <li class="item">

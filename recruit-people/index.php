@@ -72,16 +72,16 @@
                 <span class="page-menu--link page-menu--link--lbl">先輩インタビュー</span>
               </li>
               <li class="page-menu--item"> 
-                <a class="page-menu--link">2009年入社Oさん</a>
+                <a href="/recruit-interview-2009/" class="page-menu--link">2009年入社Oさん</a>
               </li>
               <li class="page-menu--item">
-                <a class="page-menu--link">2013年入社Hさん</a>
+                <a href="/recruit-interview-2013/" class="page-menu--link">2013年入社Hさん</a>
               </li>
               <li class="page-menu--item">
-                <a class="page-menu--link">2015年入社Nさん</a>
+                <a href="/recruit-interview-2015/" class="page-menu--link">2015年入社Nさん</a>
               </li>
               <li class="page-menu--item">
-                <a class="page-menu--link">2019年入社Aさん</a>
+                <a href="/recruit-interview-2019/" class="page-menu--link">2019年入社Aさん</a>
               </li>
             </ul>
          </div>
@@ -116,7 +116,7 @@
                     アバンセシステムで活躍するエンジニアの経歴は、実に多様です。<br>
                     理系・文系・美術系。誰もが優れた技術で確かな成果を出しながら、一人ひとりの個性を発揮して新しい仕事を生み出しています。
                   </p>
-                  <img src="/images/recruit-people/img_1.jpg" alt="理系にも文系にも、門戸は開かれています">
+                  <img src="/images/recruit/recruit-people/img_1.jpg" alt="理系にも文系にも、門戸は開かれています">
                 </li>
                 <li class="item">
                   <h3 class="ttl">人を育むとは信じること</h3>
@@ -142,7 +142,7 @@
                     アバンセシステムにもそのような先輩たちがたくさんいます。<br>
                     先輩たちはそれぞれが関心のある分野について勉強しながら、独自のシステムやソフトウェアを実現する機会をうかがっています。
                   </p>
-                  <img src="/images/recruit-people/img_2.jpg" alt="ぜひ、新しいことに挑んでください">
+                  <img src="/images/recruit/recruit-people/img_2.jpg" alt="ぜひ、新しいことに挑んでください">
                 </li>
                 <li class="item">
                   <h3 class="ttl">成長を続けるために</h3>

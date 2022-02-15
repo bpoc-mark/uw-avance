@@ -93,16 +93,16 @@
           align-items: center;
         }
         &__img1{
-          background: url(/images/service-production/img_1.jpg) center center / cover no-repeat;
+          background: url(/images/service/service-production/img_1.jpg) center center / cover no-repeat;
         }
         &__img2{
-          background: url(/images/service-production/img_2.jpg) center center / cover no-repeat;
+          background: url(/images/service/service-production/img_2.jpg) center center / cover no-repeat;
         }
         &__img3{
-          background: url(/images/service-production/img_3.jpg) center center / cover no-repeat;
+          background: url(/images/service/service-production/img_3.jpg) center center / cover no-repeat;
         }
         &__img4{
-          background: url(/images/service-production/img_4.jpg) center center / cover no-repeat;
+          background: url(/images/service/service-production/img_4.jpg) center center / cover no-repeat;
         }
         .ttl{
           @include Noto_Serif(600);

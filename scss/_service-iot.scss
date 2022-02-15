@@ -85,7 +85,7 @@
             right: -600px;
             height: 100%;
             background: yellow;
-            background: url(/images/service-iot/img_2.jpg) center center / cover no-repeat;
+            background: url(/images/service/service-iot/img_2.jpg) center center / cover no-repeat;
             @include is-max(1300px){
               right: 0;
             }
@@ -126,7 +126,7 @@
           align-items: center;
         }
         &__img1{
-          background: url(/images/service-iot/img_1.jpg) center center / cover no-repeat;
+          background: url(/images/service/service-iot/img_1.jpg) center center / cover no-repeat;
         }
         .ttl{
           @include Noto_Serif(600);

@@ -14,7 +14,7 @@
   <meta property="og:description" content="<?php echo DESCRIPTION ?>" />
   <meta property="og:url" content="<?php echo CANONICAL ?>" />
 
-  <title>先輩インタビュー2009年入社Oさん | <?php echo SITE_NAME ?></title>
+  <title>先輩インタビュー2015年入社Nさん | <?php echo SITE_NAME ?></title>
 
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_include.php"); ?>
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/ga.php"); ?>
@@ -72,16 +72,16 @@
                 <span class="page-menu--link page-menu--link--lbl">先輩インタビュー</span>
               </li>
               <li class="page-menu--item"> 
-                <span class="page-menu--link">2009年入社Oさん</span>
+                <a href="/recruit-interview-2009/" class="page-menu--link">2009年入社Oさん</a>
               </li>
               <li class="page-menu--item">
-                <span class="page-menu--link">2013年入社Hさん</span>
+                <a href="/recruit-interview-2013/" class="page-menu--link">2013年入社Hさん</a>
               </li>
               <li class="page-menu--item">
-                <span class="page-menu--link page-menu--link__active">2015年入社Nさん</span>
+                <a href="/recruit-interview-2015/" class="page-menu--link page-menu--link__active">2015年入社Nさん</a>
               </li>
               <li class="page-menu--item">
-                <span class="page-menu--link">2019年入社Aさん</span>
+                <a href="/recruit-interview-2019/" class="page-menu--link">2019年入社Aさん</a>
               </li>
             </ul>
          </div>
@@ -100,8 +100,8 @@
                     また、アバンセシステムではスマホ、クラウド、組み込みなど幅広い開発分野での実績を持っていることも入社した理由の1つ。働くなら会社独自のソフトもつくりたいと希望していたところ、アバンセシステムのノウハウを下地にして様々なソフトがつくれそうだと考えたからです。
                   </p>
                   <picture >
-                    <source srcset="/images/recruit-interview-2015/sp/img_1.jpg" media="(max-width: 899px)">
-                    <img src="/images/recruit-interview-2015/img_1.jpg" alt="話題の技術でソフトを開発できる" class="">
+                    <source srcset="/images/recruit/recruit-interview-2015/sp/img_1.jpg" media="(max-width: 899px)">
+                    <img src="/images/recruit/recruit-interview-2015/img_1.jpg" alt="話題の技術でソフトを開発できる" class="">
                   </picture>
                 </li>
                 <li class="item">
@@ -126,8 +126,8 @@
                   弊社が新しい分野に踏み出す場合、会社として経験がないから諦めるというわけでなく、何から着手して、どう育てていくのかについてエンジニアの意見が非常に尊重されます。そのため、エンジニアがお客様や社会のためになると考える提案なら、採用されやすくなります。実力のあるエンジニアにとって、これ以上ない活躍の舞台と言えるでしょう。
                   </p>
                   <picture >
-                    <source srcset="/images/recruit-interview-2015/sp/img_2.jpg" media="(max-width: 899px)">
-                    <img src="/images/recruit-interview-2015/img_2.jpg" alt="アプリ開発は要件定義・仕様検討がポイント" class="">
+                    <source srcset="/images/recruit/recruit-interview-2015/sp/img_2.jpg" media="(max-width: 899px)">
+                    <img src="/images/recruit/recruit-interview-2015/img_2.jpg" alt="アプリ開発は要件定義・仕様検討がポイント" class="">
                   </picture>
                 </li>
                 <li class="item">

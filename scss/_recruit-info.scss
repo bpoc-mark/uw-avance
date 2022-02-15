@@ -93,10 +93,10 @@
           align-items: center;
         }
         &__img1{
-          background: url(/images/recruit-info/img_1.jpg) center center / cover no-repeat;
+          background: url(/images/recruit/recruit-info/img_1.jpg) center center / cover no-repeat;
         }
         &__img2{
-          background: url(/images/recruit-info/img_2.jpg) center center / cover no-repeat;
+          background: url(/images/recruit/recruit-info/img_2.jpg) center center / cover no-repeat;
         }
         .ttl{
           @include Noto_Serif(600);
@@ -196,10 +196,10 @@
   }
   .c-service01{
     .c-service01__content--col--bg1{
-      background: url(/images/recruit-info/card-footer/img_1.jpg) center center / cover no-repeat;
+      background: url(/images/recruit/recruit-info/card-footer/img_1.jpg) center center / cover no-repeat;
     }
     .c-service01__content--col--bg2{
-      background: url(/images/recruit-info/card-footer/img_2.jpg) center center / cover no-repeat;
+      background: url(/images/recruit/recruit-info/card-footer/img_2.jpg) center center / cover no-repeat;
     }
   }
 }

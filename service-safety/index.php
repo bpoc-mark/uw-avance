@@ -61,7 +61,7 @@
             </p>
             <div class="img_wrap">
               <a href="https://www.anpic.jp/" target="_blank">
-                <img src="/images/service-safety/img_1.png" alt="ユーザー数50万人以上！低コストで“もしも”にそなえる安否確認システムANPIC">
+                <img src="/images/service/service-safety/img_1.png" alt="ユーザー数50万人以上！低コストで“もしも”にそなえる安否確認システムANPIC">
               </a>
             </div>
           </div>
@@ -72,7 +72,7 @@
           <div class="container">
             <div class="service__wrapper--row">
               <div class="service__wrapper--col service__wrapper--col__img1">
-                <img src="/images/service-safety/sp/img_2.jpg" class="sp" alt="ANPICの特徴">
+                <img src="/images/service/service-safety/sp/img_2.jpg" class="sp" alt="ANPICの特徴">
               </div>
               <div class="service__wrapper--col">
                 <div class="service__wrapper--col__content">

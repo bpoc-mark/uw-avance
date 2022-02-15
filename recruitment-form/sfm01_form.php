@@ -154,18 +154,18 @@
 												<div class="month">
 													<select id="month" name="month_s"  required value="" title="">
 														<option name="month_s[]" value="" disabled="disabled" selected hidden>---</option>
-														<option name="month_s[]" value="January">January</option>
-														<option name="month_s[]" value="February">February</option>
-														<option name="month_s[]" value="March">March</option>
-														<option name="month_s[]" value="April">April</option>
-														<option name="month_s[]" value="May">May</option>
-														<option name="month_s[]" value="June">June</option>
-														<option name="month_s[]" value="July">July</option>
-														<option name="month_s[]" value="August">August</option>
-														<option name="month_s[]" value="September">September</option>
-														<option name="month_s[]" value="October">October</option>
-														<option name="month_s[]" value="November">November</option>
-														<option name="month_s[]" value="December">December</option>
+														<option name="month_s[]" value="01">01</option>
+														<option name="month_s[]" value="02">02</option>
+														<option name="month_s[]" value="03">03</option>
+														<option name="month_s[]" value="04">04</option>
+														<option name="month_s[]" value="05">05</option>
+														<option name="month_s[]" value="06">06</option>
+														<option name="month_s[]" value="07">07</option>
+														<option name="month_s[]" value="08">08</option>
+														<option name="month_s[]" value="09">09</option>
+														<option name="month_s[]" value="10">10</option>
+														<option name="month_s[]" value="11">11</option>
+														<option name="month_s[]" value="12">12</option>
 													</select>
 													<span>月</span>
 												</div>

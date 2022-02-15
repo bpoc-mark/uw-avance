@@ -535,22 +535,22 @@ img {
   }
   &--bg{
     &__service{
-      background: url(/images/service/header_bg.jpg) center center / cover no-repeat;
+      background: url(/images/service/service-page/header_bg.jpg) center center / cover no-repeat;
     } 
     &__service-iot{
-      background: url(/images/service-iot/header_bg.jpg) center center / cover no-repeat;
+      background: url(/images/service/service-iot/header_bg.jpg) center center / cover no-repeat;
     }
     &__service-education{
-      background: url(/images/service-education/header_bg.jpg) center center / cover no-repeat;
+      background: url(/images/service/service-education/header_bg.jpg) center center / cover no-repeat;
     }
     &__service-safety{
-      background: url(/images/service-safety/header_bg.jpg) center center / cover no-repeat;
+      background: url(/images/service/service-safety/header_bg.jpg) center center / cover no-repeat;
     }
     &__service-production{
-      background: url(/images/service-production/header_bg.jpg) center center / cover no-repeat;
+      background: url(/images/service/service-production/header_bg.jpg) center center / cover no-repeat;
     }
     &__recruit-info{
-      background: url(/images/recruit-info/header_bg.jpg) center center / cover no-repeat;
+      background: url(/images/recruit/recruit-info/header_bg.jpg) center center / cover no-repeat;
     }
     #{$p-header01} {
       &--en{
@@ -777,7 +777,6 @@ img {
     &--ttl{
       font-size: 22px;
       font-weight: 500;
-      letter-spacing: .14em;
       color: #060930;
       line-height: 25px;
       text-decoration: underline;

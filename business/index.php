@@ -103,7 +103,7 @@
                   </p>
                 </div>
                 <div class="col">
-                  <img src="/images/business/img_1.svg" alt="サービスフィールド">
+                  <img src="/images/company/business/img_1.svg" alt="サービスフィールド">
                 </div>
               </div>
             </div>

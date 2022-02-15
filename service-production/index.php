@@ -68,7 +68,7 @@
           <div class="container">
             <div class="service__wrapper--row">
               <div class="service__wrapper--col service__wrapper--col__img1">
-                <img src="/images/service-production/sp/img_1.jpg" class="sp" alt="PLCとのきめ細かい連携">
+                <img src="/images/service/service-production/sp/img_1.jpg" class="sp" alt="PLCとのきめ細かい連携">
               </div>
               <div class="service__wrapper--col">
                 <div class="service__wrapper--col__content">
@@ -87,7 +87,7 @@
           <div class="container">
             <div class="service__wrapper--row">
               <div class="service__wrapper--col service__wrapper--col__img2">
-                <img src="/images/service-production/sp/img_2.jpg" class="sp" alt="トレーサビリティ">
+                <img src="/images/service/service-production/sp/img_2.jpg" class="sp" alt="トレーサビリティ">
               </div>
               <div class="service__wrapper--col">
                 <div class="service__wrapper--col__content">
@@ -105,7 +105,7 @@
           <div class="container">
             <div class="service__wrapper--row">
               <div class="service__wrapper--col service__wrapper--col__img3">
-                <img src="/images/service-production/sp/img_3.jpg" class="sp" alt="ニーズに合わせてシステムを柔軟に変化させます">
+                <img src="/images/service/service-production/sp/img_3.jpg" class="sp" alt="ニーズに合わせてシステムを柔軟に変化させます">
               </div>
               <div class="service__wrapper--col">
                 <div class="service__wrapper--col__content">
@@ -123,7 +123,7 @@
           <div class="container">
             <div class="service__wrapper--row">
               <div class="service__wrapper--col service__wrapper--col__img4">
-                <img src="/images/service-production/sp/img_4.jpg" class="sp" alt="すぐにお伺いできるフットワーク">
+                <img src="/images/service/service-production/sp/img_4.jpg" class="sp" alt="すぐにお伺いできるフットワーク">
               </div>
               <div class="service__wrapper--col">
                 <div class="service__wrapper--col__content">
