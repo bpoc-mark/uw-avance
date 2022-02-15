@@ -1,0 +1,74 @@
+@use "sass:math";
+/*==================================
+  News
+==================================*/
+#News main {
+  background-color: #eff0f2;
+  .c-breadcrumb{
+    background-color: transparent;
+    &::before{
+      display: none;
+    }
+    .container{
+      display: none;
+    }
+  }
+  .sect_1{
+    .wrapper{
+      padding: 0 0 105px;
+      .news{
+        position: relative;
+        margin: 30px 0 0 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        &__item{
+          width: 100%;
+          &:not(:last-child){
+            margin-bottom: 20px;
+          }
+        }
+        &__img{
+          position: relative;
+          overflow: hidden;
+          img{
+            transition: .3s ease-in-out;
+          }
+        }
+        &__content{
+          background-color: #fff;
+          position: relative;
+          padding: 10px 25px 25px;
+          &__wrap{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            color: #919191;
+            &--separator{
+              opacity: 1;
+              transition: .3s ease-in-out;
+            }
+          }
+          &--date{
+            @include Cormorant(400);
+            font-size: 18px;
+          }
+          &--cat{
+            font-size: 12px;
+            position: relative;
+            top: 2px;
+            opacity: 1;
+            transition: .3s ease-in-out;
+          }
+          &--title{
+            font-weight: 500;
+            color: #060930;
+            line-height: 25.6px;
+            margin: 0 0 0 -1px;
+            transition: all .3s ease-in-out;
+          }
+        }
+      }
+    }
+  }
+}

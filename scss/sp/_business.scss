@@ -1,0 +1,129 @@
+@use "sass:math";
+/*==================================
+  Business
+==================================*/
+#Business main {
+  background-color: #eff0f2;
+  .sect_1{
+    .wrapper{
+      position: relative;
+      background-color: #fff;
+      .container{
+        position: relative;
+        z-index: 2;
+        .content{
+          p{
+            letter-spacing: .02em;
+            line-height: 25.6px
+          }
+        }
+      }
+    }
+  }
+  .sect_2{
+    .wrapper{
+      position: relative;
+      background-color: #fff;
+      .container{
+        position: relative;
+        z-index: 2;
+        .content{
+          position: relative;
+          padding: 60px 0 0 0;
+          .row{
+            .col{
+              &:first-child{
+                width: 100%;
+                padding: 0 0 30px;
+              }
+              &:last-child{
+                width: 100%;
+                text-align: center;
+              }
+            }
+          }
+          p{
+            letter-spacing: .02em;
+            line-height: 25.6px
+          }
+        }
+      }
+    }
+  }
+  .sect_3{
+    .wrapper{
+      padding: 0 0 100px;
+      .container{
+        padding-left: 0;
+        padding-right: 0;
+        .row{
+          background-color: #fff;
+          padding: 62px 0 0;
+          .col{
+            position: relative;
+            width: 100%;
+            border-bottom: 1px solid #e2e2e2;
+            &:first-child{
+              padding: 0 20px;
+            }
+            .desc{
+              line-height: 25.6px;
+              letter-spacing: .02em;
+              margin: 25px 0 35px;
+            }
+            .card{
+              display: flex;
+              align-items: center;
+              flex-direction: row-reverse;
+              picture{
+                width: 37.33%;
+              }
+              &--content{
+                width: 62.67%;
+                background-color: #fff;
+                padding: 10px 20px;
+                &__num{
+                  @include Cormorant(600);
+                  font-size: 24px;
+                  letter-spacing: .04em;
+                  line-height: 0;
+                  color: #060930;
+                }
+                &__title{
+                  font-weight: 500;
+                  font-size: 22px;
+                  color: #060930;
+                  letter-spacing: .14em;
+                  text-decoration: underline;
+                  text-underline-offset: 5px;
+                  line-height: 30px;
+                  margin: 20px 0 0;
+                }
+                &__desc{
+                  line-height: 25.6px;
+                  letter-spacing: .02em;
+                  margin: 15px 0 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .ttl{
+    @include Noto_Serif(600);
+    font-size: 24px;
+    letter-spacing: .06em;
+    line-height: 33.5px;
+    color: #000;
+    &::after{
+      content: "";
+      display: block;
+      width: 80px;
+      height: 1px;
+      background-color: #9fb2d4;
+      margin: 15px 0 18px;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+@use "sass:math";
+/*==================================
+  Recruit-People
+==================================*/
+#Recruit-People main {
+  background-color: #eff0f2;
+  .sect_2{
+    padding: 0 0 100px;
+    .wrapper{
+      .container{
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  }
+}

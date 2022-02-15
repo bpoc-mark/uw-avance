@@ -1,0 +1,215 @@
+@use "sass:math";
+/*==================================
+  Service-IOT
+==================================*/
+#Service-IOT main {
+  background-color: #eff0f2;
+  .sect_1{
+    position: relative;
+    &::before{
+      content: "";
+      display: block;
+      width: 50%;
+      height: 100%;
+      background-color: #fff;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+    .container{
+      position: relative;
+      z-index: 2;
+      .content{
+        text-align: center;
+        background-color: #fff;
+        padding: 0 0 75px;
+        h2{
+          @include Noto_Serif(600);
+          font-size: 24px;
+          letter-spacing: .06em;
+          line-height: 36px;
+          color: #060930;
+          span{
+            font-size: 16px;
+          }
+        }
+        p{
+          letter-spacing: .02em;
+          line-height: 25.6px;
+          color: #474747;
+          margin: 18px 0 0;
+        }
+      }
+    }
+  }
+  .service{
+    padding: 100px 0 0;
+    &__wrapper{
+      $wrapper: &;
+      position: relative;
+      &:not(:last-child){
+        margin: 0 0 100px;
+      }
+      &::after{
+        content: "";
+        display: block;
+        width: 50%;
+        height: 100%;
+        background-color: #fff;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+      }
+      &--reverse{
+        &::after{
+          right: unset;
+          left: 0;
+        }
+        .base_img{
+          position: absolute;
+          z-index: 3;
+          top: 0;
+          right: 50%;
+          left: 0;
+          height: 440px;
+          @include is-max(1300px){
+            right: 50px;
+          }
+          .bg_img{
+            z-index: 1;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: -600px;
+            height: 100%;
+            background: yellow;
+            background: url(/images/service-iot/img_2.jpg) center center / cover no-repeat;
+            @include is-max(1300px){
+              right: 0;
+            }
+          }
+        }
+        .service__wrapper--row{
+          flex-direction: row-reverse;
+          flex-wrap: wrap;
+          .service__wrapper--col{
+            width: 100%;
+            &:first-child{
+              display: none;
+            }
+            &:last-child{
+              margin: 440px 0 0;
+              padding: 71px 100px 80px 0;
+            }
+          }
+        }
+      }
+      .container{
+        position: relative;
+        z-index: 2;
+      }
+      &--row{
+        min-height: 642px;
+        display: flex;
+        background-color: #fff;
+      }
+      &--col{
+        &:first-child{
+          width: 36.67%;
+        }
+        &:last-child{
+          width: 63.33%;
+          padding: 71px 0 80px 100px;
+          display: flex;
+          align-items: center;
+        }
+        &__img1{
+          background: url(/images/service-iot/img_1.jpg) center center / cover no-repeat;
+        }
+        .ttl{
+          @include Noto_Serif(600);
+          font-size: 30px;
+          letter-spacing: .14em;
+          line-height: 39px;
+          color: #000;
+          &::after{
+            content: "";
+            display: block;
+            width: 80px;
+            height: 1px;
+            background-color: #9fb2d4;
+            margin: 25px 0 35px;
+          }
+        }
+        .sub_list{
+          .sub_item{
+            &:not(:last-child){
+              margin: 0 0 35px;
+            }
+            .sub_ttl{
+              @include Noto_Serif(600);
+              font-size: 24px;
+              letter-spacing: .06em;
+              line-height: 36px;
+              color: #060930;
+            }
+            .desc{
+              line-height: 25.6px;
+              letter-spacing: .02em;
+              color: #474747;
+              margin: 9px 0 0;
+            }
+            .list_wrap{
+              background-color: #eff0f2;
+              margin: 15px 0 0;
+              padding: 32px 40px 35px;
+              &--ttl{
+                @include Noto_Serif(600); 
+                font-size: 24px;
+                letter-spacing: .06em;
+                line-height: 36px;
+                color: #060930;
+                margin: 0 0 8px;
+              }
+              &--con{
+                &__flex{
+                  display: flex;
+                  flex-wrap: wrap;
+                  justify-content: space-between;
+                  .list_wrap--item{
+                    width: 48%;
+                    p{
+                      letter-spacing: 0;
+                    }
+                  }
+                }
+              }
+              &--item{
+                position: relative;
+                padding: 0 0 0 20px;
+                &::before{
+                  content: "";
+                  display: block;
+                  width: 8px;
+                  height: 8px;
+                  background-color: #00c8e0;
+                  border-radius: 50px;
+                  position: absolute;
+                  top: 10px;
+                  left: 0;
+                }
+              }
+              &--txt{
+                line-height: 25.6px;
+                letter-spacing: .02em;
+                color: #474747;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
